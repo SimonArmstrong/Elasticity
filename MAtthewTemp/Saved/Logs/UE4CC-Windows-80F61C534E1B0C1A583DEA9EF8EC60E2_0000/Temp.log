@@ -1,0 +1,1244 @@
+﻿Log file open, 07/20/17 09:17:49
+LogInit:Display: Running engine for game: Temp
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-968072933) SRandInit(-968072933).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.069363
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3348071
+LogInit: Engine Version: 4.15.1-3348071+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): Mar 15 2017 16:52:47
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.07.19-23.17.50:960][  0]LogInit: Selected Device Profile: [Windows]
+[2017.07.19-23.17.50:960][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.07.19-23.17.50:967][  0]LogInit: Computer: WWP-D30E0B
+[2017.07.19-23.17.50:967][  0]LogInit: User: s171294
+[2017.07.19-23.17.50:967][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.07.19-23.17.50:967][  0]LogInit: High frequency timer resolution =3.323603 MHz
+[2017.07.19-23.17.50:967][  0]LogMemory: Memory total: Physical=32.0GB (32GB approx)
+[2017.07.19-23.17.50:967][  0]LogMemory: Platform Memory Stats for Windows
+[2017.07.19-23.17.50:967][  0]LogMemory: Process Physical Memory: 264.14 MB used, 264.14 MB peak
+[2017.07.19-23.17.50:968][  0]LogMemory: Process Virtual Memory: 265.43 MB used, 265.43 MB peak
+[2017.07.19-23.17.50:968][  0]LogMemory: Physical Memory: 4639.92 MB used,  28089.46 MB free, 32729.38 MB total
+[2017.07.19-23.17.50:968][  0]LogMemory: Virtual Memory: 632.47 MB used,  28089.46 MB free, 8388608.00 MB total
+[2017.07.19-23.17.51:037][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.07.19-23.17.51:587][  0]LogD3D11RHI: D3D11 adapters:
+[2017.07.19-23.17.51:606][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 660 Ti' (Feature Level 11_0)
+[2017.07.19-23.17.51:606][  0]LogD3D11RHI:       1988/0/16108 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.07.19-23.17.51:606][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.07.19-23.17.51:609][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.07.19-23.17.51:609][  0]LogD3D11RHI:     GPU DeviceId: 0x1183 (for the marketing name, search the web for "GPU Device Id")
+[2017.07.19-23.17.51:609][  0]LogWindows: EnumDisplayDevices:
+[2017.07.19-23.17.51:609][  0]LogWindows:    0. 'NVIDIA GeForce GTX 660 Ti' (P:1 D:1)
+[2017.07.19-23.17.51:609][  0]LogWindows:    1. 'NVIDIA GeForce GTX 660 Ti' (P:0 D:1)
+[2017.07.19-23.17.51:609][  0]LogWindows:    2. 'NVIDIA GeForce GTX 660 Ti' (P:0 D:0)
+[2017.07.19-23.17.51:610][  0]LogWindows:    3. 'NVIDIA GeForce GTX 660 Ti' (P:0 D:0)
+[2017.07.19-23.17.51:610][  0]LogWindows:    4. 'RDPDD Chained DD' (P:0 D:0)
+[2017.07.19-23.17.51:610][  0]LogWindows:    5. 'RDP Encoder Mirror Driver' (P:0 D:0)
+[2017.07.19-23.17.51:610][  0]LogWindows:    6. 'RDP Reflector Display Driver' (P:0 D:0)
+[2017.07.19-23.17.51:610][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2017.07.19-23.17.51:610][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 660 Ti
+[2017.07.19-23.17.51:610][  0]LogD3D11RHI:   Driver Version: 376.33 (internal:21.21.13.7633, unified:376.33)
+[2017.07.19-23.17.51:610][  0]LogD3D11RHI:      Driver Date: 12-11-2016
+[2017.07.19-23.17.51:610][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.07.19-23.17.51:616][  0]LogD3D11RHI:Warning: Timestamp queries are currently disabled on this hardware due to instability. Realtime GPU stats will not be available. You can override this behaviour by setting r.NVIDIATimestampWorkaround to 0
+[2017.07.19-23.17.51:616][  0]LogD3D11RHI: Async texture creation enabled
+[2017.07.19-23.17.51:631][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.07.19-23.17.51:725][  0]LogShaderCompilers: Guid format shader working directory is -14 characters bigger than the processId version (../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Intermediate/Shaders/WorkingDirectory/4396/).
+[2017.07.19-23.17.51:725][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/s171294/AppData/Local/Temp/UnrealShaderWorkingDir/4DFCC17E4785055A84E06B99B6ED0C67/'.
+[2017.07.19-23.17.51:725][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.07.19-23.17.52:662][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.07.19-23.17.52:710][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.07.19-23.17.52:758][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.07.19-23.17.52:807][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.07.19-23.17.52:857][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.07.19-23.17.52:906][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.07.19-23.17.52:954][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.07.19-23.17.53:002][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.07.19-23.17.53:039][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.07.19-23.17.53:086][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.07.19-23.17.53:133][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.07.19-23.17.53:180][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.07.19-23.17.53:228][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.07.19-23.17.53:275][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.07.19-23.17.53:322][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.07.19-23.17.53:416][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.07.19-23.17.53:416][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.07.19-23.17.53:447][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.07.19-23.17.53:530][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.07.19-23.17.53:561][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.07.19-23.17.53:608][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.07.19-23.17.53:656][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.07.19-23.17.53:705][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.07.19-23.17.53:754][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.07.19-23.17.53:754][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.07.19-23.17.54:096][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.07.19-23.17.54:139][  0]LogDerivedDataCache: Loaded boot cache 0.04s 50MB C:/Users/s171294/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.07.19-23.17.54:139][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/s171294/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.07.19-23.17.54:139][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/s171294/Documents/Unreal Projects/Temp/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.07.19-23.17.54:139][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.07.19-23.17.54:139][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/s171294/Documents/Unreal Projects/Temp/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.07.19-23.17.54:139][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.07.19-23.17.54:157][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.07.19-23.17.54:168][  0]LogDerivedDataCache: Using Local data cache path C:/Users/s171294/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.07.19-23.17.54:177][  0]LogSlate: Using Freetype 2.6.0
+[2017.07.19-23.17.54:177][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.07.19-23.17.54:177][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.07.19-23.17.54:456][  0]LogInit: Selected Device Profile: [Windows]
+[2017.07.19-23.17.54:459][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.07.19-23.17.54:641][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.07.19-23.17.54:675][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.07.19-23.17.54:711][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.07.19-23.17.54:711][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.07.19-23.17.54:711][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.07.19-23.17.55:156][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: temp, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 1661080953
+[2017.07.19-23.17.55:197][  0]LogAssetRegistry: FAssetRegistry took 0.0195 seconds to start up
+[2017.07.19-23.17.55:231][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.017025 seconds
+[2017.07.19-23.17.55:236][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2017.07.19-23.17.55:236][  0]LogUObjectAllocator: 7077032 out of 0 bytes used by permanent object pool.
+[2017.07.19-23.17.55:236][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.07.19-23.17.55:287][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.07.19-23.17.56:547][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.07.19-23.17.56:579][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.07.19-23.17.56:961][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.07.19-23.17.57:264][  0]SourceControl: Info Source control is disabled
+[2017.07.19-23.17.57:265][  0]SourceControl: Info Source control is disabled
+[2017.07.19-23.17.57:301][  0]SourceControl: Info Source control is disabled
+[2017.07.19-23.17.57:335][  0]SourceControl: Info Source control is disabled
+[2017.07.19-23.17.58:288][  0]LogEngine: Initializing Engine...
+[2017.07.19-23.17.58:288][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.07.19-23.17.58:488][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.07.19-23.17.58:495][  0]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.19-23.17.58:508][  0]LogInit: FAudioDevice initialized.
+[2017.07.19-23.17.58:530][  0]LogDerivedDataCache: Saved boot cache 0.02s 50MB C:/Users/s171294/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.07.19-23.17.58:535][  0]LogInit: Texture streaming: Enabled
+[2017.07.19-23.17.58:608][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.07.19-23.17.58:678][  0]LogInit: Transaction tracking system initialized
+[2017.07.19-23.17.58:947][  0]BlueprintLog: New page: Editor Load
+[2017.07.19-23.17.59:634][  0]LocalizationService: Info Localization service is disabled
+[2017.07.19-23.18.00:168][  0]LogConsoleResponse:Display: 
+[2017.07.19-23.18.00:280][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.07.19-23.18.00:280][  0]LogCook:Display: Mobile HDR setting 1
+[2017.07.19-23.18.00:298][  0]LogFileCache: Scanning file cache for directory 'C:/Users/s171294/Documents/Unreal Projects/Temp/Content/' took 0.01s
+[2017.07.19-23.18.01:074][  0]SourceControl: Info Source control is disabled
+[2017.07.19-23.18.01:074][  0]Cmd: MAP LOAD FILE="../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.07.19-23.18.01:075][  0]LightingResults: New page: Lighting Build
+[2017.07.19-23.18.01:107][  0]MapCheck: New page: Map Check
+[2017.07.19-23.18.01:107][  0]LightingResults: New page: Lighting Build
+[2017.07.19-23.18.01:550][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.07.19-23.18.01:573][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.07.19-23.18.01:574][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.07.19-23.18.01:606][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 31.831ms to complete.
+[2017.07.19-23.18.01:606][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.532
+[2017.07.19-23.18.01:782][  0]LogCollectionManager: Loaded 0 collections in 0.001295 seconds
+[2017.07.19-23.18.01:854][  0]LogFileCache: Scanning file cache for directory 'C:/Users/s171294/Documents/Unreal Projects/Temp/Saved/Collections/' took 0.01s
+[2017.07.19-23.18.01:854][  0]LogFileCache: Scanning file cache for directory 'C:/Users/s171294/Documents/Unreal Projects/Temp/Content/Developers/s171294/Collections/' took 0.01s
+[2017.07.19-23.18.01:854][  0]LogFileCache: Scanning file cache for directory 'C:/Users/s171294/Documents/Unreal Projects/Temp/Content/Collections/' took 0.01s
+[2017.07.19-23.18.01:854][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000006 seconds
+[2017.07.19-23.18.01:864][  0]LogContentBrowser: Native class hierarchy populated in 0.0090 seconds. Added 2245 classes and 453 folders.
+[2017.07.19-23.18.01:870][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.07.19-23.18.01:870][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.07.19-23.18.01:920][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.07.19-23.18.02:023][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.07.19-23.18.02:059][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.07.19-23.18.02:154][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.07.19-23.18.02:160][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.07.19-23.18.02:216][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.07.19-23.18.02:217][  0]LogLoad: (Engine Initialization) Total time: 13.21 seconds
+[2017.07.19-23.18.02:217][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.10 seconds
+[2017.07.19-23.18.02:217][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.07.19-23.18.02:217][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.07.19-23.18.02:226][  0]LogOcInput: OculusInput pre-init called
+[2017.07.19-23.18.02:247][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.07.19-23.18.02:248][  0]LogSlate: Took 0.000155 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.07.19-23.18.02:252][  0]LogSlate: Took 0.000165 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.07.19-23.18.02:258][  0]LogSlate: Took 0.001247 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.07.19-23.18.02:380][  0]LogSlate: Took 0.001122 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.07.19-23.18.02:421][  0]LogRenderer: Reallocating scene render targets to support 1056x556 NumSamples 1 (Frame:2).
+[2017.07.19-23.18.02:557][  1]LogAssetRegistry: Asset discovery search completed in 7.3802 seconds
+[2017.07.19-23.18.02:557][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000003 seconds (found 0 objects)
+[2017.07.19-23.18.02:557][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000018 seconds (updated 0 objects)
+[2017.07.19-23.18.06:471][437]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.07.19-23.18.06:481][437]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.19-23.18.06:481][437]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.19-23.18.06:482][437]PIE: New page: PIE session: Minimal_Default (Jul 20, 2017, 7:18:06 PM)
+[2017.07.19-23.18.06:482][437]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2017.07.19-23.18.06:489][437]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006884s)
+[2017.07.19-23.18.06:490][437]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.07.19-23.18.06:490][437]LogPlayLevel: PIE: World Init took: (0.000691s)
+[2017.07.19-23.18.06:490][437]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.007805s)
+[2017.07.19-23.18.06:503][437]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.19-23.18.06:508][437]LogInit: FAudioDevice initialized.
+[2017.07.19-23.18.06:566][437]LogLoad: Game class is 'BungeeKickerMode_C'
+[2017.07.19-23.18.06:569][437]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2017.07.20-09.18.06
+[2017.07.19-23.18.06:570][437]LogWorld: Bringing up level for play took: 0.002030
+[2017.07.19-23.18.06:604][437]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 11 classes and 0 folders.
+[2017.07.19-23.18.06:609][437]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.83
+[2017.07.19-23.18.06:610][437]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.19-23.18.06:673][437]LogRenderer: Reallocating scene render targets to support 1292x756 NumSamples 1 (Frame:464).
+[2017.07.19-23.18.10:134][832]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.19-23.18.10:168][832]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.19-23.18.24:757][452]LogActorFactory: Actor Factory created Sphere
+[2017.07.19-23.18.25:919][590]LogActorFactory: Actor Factory created Sphere
+[2017.07.19-23.18.29:450][999]LogSlate: Took 0.001518 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.07.19-23.20.34:228][659]LogSlate: Took 0.000237 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.07.19-23.20.34:730][659]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 112 classes and 0 folders.
+[2017.07.19-23.20.35:567][659]LogSlate: Took 0.000134 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.07.19-23.20.35:569][659]LogSlate: Took 0.001275 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.07.19-23.20.40:648][863]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.07.19-23.21.52:863][ 43]LogVSAccessor: Couldn't get item operations. Visual Studio may still be initializing.
+[2017.07.19-23.21.52:893][ 44]LogVSAccessor:Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.07.19-23.24.11:626][814]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Content/UI ELEMENTS GAME JAM UE4/Credits.png)
+[2017.07.19-23.24.11:650][814]LogTexture:Display: Building textures: Credits (AutoDXT, 1024X500) - 127 MB total VRAM
+[2017.07.19-23.24.11:734][814]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Content/UI ELEMENTS GAME JAM UE4/Logo.png)
+[2017.07.19-23.24.11:756][814]LogTexture:Display: Building textures: Logo (AutoDXT, 1024X500) - 127 MB total VRAM
+[2017.07.19-23.24.11:903][814]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Content/UI ELEMENTS GAME JAM UE4/Play Button.png)
+[2017.07.19-23.24.11:924][814]LogTexture:Display: Building textures: Play_Button (AutoDXT, 1024X500) - 128 MB total VRAM
+[2017.07.19-23.24.12:319][814]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Content/UI ELEMENTS GAME JAM UE4/Popup_U.png)
+[2017.07.19-23.24.12:329][814]LogTexture:Display: Building textures: Popup_U (AutoDXT, 500X500) - 128 MB total VRAM
+[2017.07.19-23.24.12:424][814]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Content/UI ELEMENTS GAME JAM UE4/Popup_W.png)
+[2017.07.19-23.24.12:434][814]LogTexture:Display: Building textures: Popup_W (AutoDXT, 500X500) - 128 MB total VRAM
+[2017.07.19-23.28.30:435][783]BlueprintLog: New page: Compile ControlUI
+[2017.07.19-23.29.05:528][326]LogSlate: Took 0.001418 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.07.19-23.30.18:178][178]LogSavePackage: Save=118.81ms
+[2017.07.19-23.30.18:178][178]LogSavePackage: Moving '../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Saved/Minimal_Default_Auto1DC13FB46449FF1CCD03EBA8BFC331066.tmp' to '../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto1.umap'
+[2017.07.19-23.30.18:179][178]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto1.umap
+[2017.07.19-23.30.18:180][178]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.143
+[2017.07.19-23.30.18:180][178]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.143
+[2017.07.19-23.30.18:183][178]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ControlUI] ([1] browsable assets)...
+[2017.07.19-23.30.18:183][178]OBJ SavePackage: Finished generating thumbnails for package [/Game/ControlUI]
+[2017.07.19-23.30.18:183][178]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ControlUI" FILE="../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Saved/Autosaves/Game/ControlUI_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.07.19-23.30.18:191][178]LogSavePackage: Save=6.75ms
+[2017.07.19-23.30.18:191][178]LogSavePackage: Moving '../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Saved/ControlUI_Auto1703FBD504802DFB3067459ADE6D82776.tmp' to '../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Saved/Autosaves/Game/ControlUI_Auto1.uasset'
+[2017.07.19-23.30.18:191][178]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Saved/Autosaves/Game/ControlUI_Auto1.uasset
+[2017.07.19-23.30.18:191][178]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Credits] ([1] browsable assets)...
+[2017.07.19-23.30.18:197][178]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Credits.Credits]
+[2017.07.19-23.30.18:197][178]OBJ SavePackage: Finished generating thumbnails for package [/Game/Credits]
+[2017.07.19-23.30.18:197][178]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Credits" FILE="../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Saved/Autosaves/Game/Credits_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.07.19-23.30.18:201][178]LogSavePackage: Save=3.16ms
+[2017.07.19-23.30.18:201][178]LogSavePackage: Moving '../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Saved/Credits_Auto1DC1E7B324A501900D54EB79F8E716FCE.tmp' to '../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Saved/Autosaves/Game/Credits_Auto1.uasset'
+[2017.07.19-23.30.18:201][178]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Saved/Autosaves/Game/Credits_Auto1.uasset
+[2017.07.19-23.30.18:201][178]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Logo] ([1] browsable assets)...
+[2017.07.19-23.30.18:207][178]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Logo.Logo]
+[2017.07.19-23.30.18:207][178]OBJ SavePackage: Finished generating thumbnails for package [/Game/Logo]
+[2017.07.19-23.30.18:207][178]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Logo" FILE="../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Saved/Autosaves/Game/Logo_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.07.19-23.30.18:212][178]LogSavePackage: Save=4.20ms
+[2017.07.19-23.30.18:212][178]LogSavePackage: Moving '../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Saved/Logo_Auto15267A00A43DE19CE122313886B518DCB.tmp' to '../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Saved/Autosaves/Game/Logo_Auto1.uasset'
+[2017.07.19-23.30.18:212][178]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Saved/Autosaves/Game/Logo_Auto1.uasset
+[2017.07.19-23.30.18:212][178]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Play_Button] ([1] browsable assets)...
+[2017.07.19-23.30.18:218][178]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Play_Button.Play_Button]
+[2017.07.19-23.30.18:218][178]OBJ SavePackage: Finished generating thumbnails for package [/Game/Play_Button]
+[2017.07.19-23.30.18:218][178]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Play_Button" FILE="../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Saved/Autosaves/Game/Play_Button_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.07.19-23.30.18:223][178]LogSavePackage: Save=5.14ms
+[2017.07.19-23.30.18:223][178]LogSavePackage: Moving '../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Saved/Play_Button_Auto11EFB612245CEB3A6221472B21942BA00.tmp' to '../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Saved/Autosaves/Game/Play_Button_Auto1.uasset'
+[2017.07.19-23.30.18:224][178]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Saved/Autosaves/Game/Play_Button_Auto1.uasset
+[2017.07.19-23.30.18:224][178]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Popup_U] ([1] browsable assets)...
+[2017.07.19-23.30.18:233][178]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Popup_U.Popup_U]
+[2017.07.19-23.30.18:233][178]OBJ SavePackage: Finished generating thumbnails for package [/Game/Popup_U]
+[2017.07.19-23.30.18:233][178]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Popup_U" FILE="../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Saved/Autosaves/Game/Popup_U_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.07.19-23.30.18:239][178]LogSavePackage: Save=5.32ms
+[2017.07.19-23.30.18:239][178]LogSavePackage: Moving '../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Saved/Popup_U_Auto11BB53BBA4C0B6F1457E5C58CCC9419A8.tmp' to '../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Saved/Autosaves/Game/Popup_U_Auto1.uasset'
+[2017.07.19-23.30.18:240][178]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Saved/Autosaves/Game/Popup_U_Auto1.uasset
+[2017.07.19-23.30.18:240][178]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Popup_W] ([1] browsable assets)...
+[2017.07.19-23.30.18:249][178]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Popup_W.Popup_W]
+[2017.07.19-23.30.18:249][178]OBJ SavePackage: Finished generating thumbnails for package [/Game/Popup_W]
+[2017.07.19-23.30.18:249][178]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Popup_W" FILE="../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Saved/Autosaves/Game/Popup_W_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.07.19-23.30.18:255][178]LogSavePackage: Save=5.61ms
+[2017.07.19-23.30.18:255][178]LogSavePackage: Moving '../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Saved/Popup_W_Auto112B24AC647AC2E45B5C916A511D31AD5.tmp' to '../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Saved/Autosaves/Game/Popup_W_Auto1.uasset'
+[2017.07.19-23.30.18:256][178]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Saved/Autosaves/Game/Popup_W_Auto1.uasset
+[2017.07.19-23.30.18:256][178]LogFileHelpers: Auto-saving content packages took 0.073
+[2017.07.19-23.33.32:265][199]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sphere)
+[2017.07.19-23.33.47:547][976]LogEditorTransaction: Undo Delete current selection
+[2017.07.19-23.33.47:695][987]LogEditorTransaction: Undo Clicking on Actors
+[2017.07.19-23.33.52:303][291]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sphere)
+[2017.07.19-23.33.53:425][397]Cmd: DELETE
+[2017.07.19-23.33.53:425][397]Cmd: ACTOR DELETE
+[2017.07.19-23.33.53:426][397]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.07.19-23.33.53:443][397]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2017.07.19-23.34.53:359][808]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.07.19-23.35.37:427][276]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ControlUI" FILE="../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Content/ControlUI.uasset" SILENT=true
+[2017.07.19-23.35.37:436][276]LogSavePackage: Save=6.87ms
+[2017.07.19-23.35.37:436][276]LogSavePackage: Moving '../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Saved/ControlUI6A91F2814BAC88DE01ACE2BD47755FB2.tmp' to '../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Content/ControlUI.uasset'
+[2017.07.19-23.35.37:437][276]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Content/ControlUI.uasset
+[2017.07.19-23.35.38:283][312]BlueprintLog: New page: Compile ControlUI
+[2017.07.19-23.35.51:615][982]BlueprintLog: New page: Compile ControlUI
+[2017.07.19-23.36.08:140][851]BlueprintLog: New page: Compile ControlUI
+[2017.07.19-23.36.11:223][984]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.07.19-23.36.14:119][144]LogEditorViewport: Clicking on Actor (LMB): ContolWidget_C (ContolWidget)
+[2017.07.19-23.36.19:647][433]BlueprintLog: New page: Compile ControlUI
+[2017.07.19-23.36.22:037][556]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.07.19-23.36.23:224][619]LogEditorViewport: Clicking on Actor (LMB): ContolWidget_C (ContolWidget)
+[2017.07.19-23.36.24:730][703]LogEditorViewport: Clicking on Actor (LMB): ContolWidget_C (ContolWidget)
+[2017.07.19-23.36.30:996][ 26]BlueprintLog: New page: Compile ControlUI
+[2017.07.19-23.36.32:599][ 96]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.07.19-23.36.42:204][614]Cmd: DELETE
+[2017.07.19-23.36.42:204][614]Cmd: ACTOR DELETE
+[2017.07.19-23.36.42:205][614]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.07.19-23.36.42:221][614]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2017.07.19-23.36.43:351][682]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.07.19-23.36.43:488][686]Cmd: DELETE
+[2017.07.19-23.36.43:488][686]Cmd: ACTOR DELETE
+[2017.07.19-23.36.43:489][686]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.07.19-23.36.43:504][686]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2017.07.19-23.36.44:172][726]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Chair)
+[2017.07.19-23.36.44:318][730]Cmd: DELETE
+[2017.07.19-23.36.44:318][730]Cmd: ACTOR DELETE
+[2017.07.19-23.36.44:319][730]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.07.19-23.36.44:334][730]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2017.07.19-23.36.45:083][775]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Table)
+[2017.07.19-23.36.45:430][790]Cmd: DELETE
+[2017.07.19-23.36.45:430][790]Cmd: ACTOR DELETE
+[2017.07.19-23.36.45:431][790]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.07.19-23.36.45:446][790]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2017.07.19-23.36.45:950][820]LogEditorViewport: Clicking on Actor (LMB): SphereReflectionCapture (SphereReflectionCapture10)
+[2017.07.19-23.36.46:140][827]Cmd: DELETE
+[2017.07.19-23.36.46:140][827]Cmd: ACTOR DELETE
+[2017.07.19-23.36.46:141][827]LogEditorActor: Deleted Actor: SphereReflectionCapture
+[2017.07.19-23.36.46:156][827]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2017.07.19-23.36.46:474][846]LogEditorViewport: Clicking on Actor (LMB): SphereReflectionCapture (SphereReflectionCapture)
+[2017.07.19-23.36.46:643][852]Cmd: DELETE
+[2017.07.19-23.36.46:643][852]Cmd: ACTOR DELETE
+[2017.07.19-23.36.46:643][852]LogEditorActor: Deleted Actor: SphereReflectionCapture
+[2017.07.19-23.36.46:658][852]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2017.07.19-23.36.46:996][872]LogEditorViewport: Clicking on Actor (LMB): SkyLight (SkyLight)
+[2017.07.19-23.36.47:141][877]Cmd: DELETE
+[2017.07.19-23.36.47:142][877]Cmd: ACTOR DELETE
+[2017.07.19-23.36.47:142][877]LogEditorActor: Deleted Actor: SkyLight
+[2017.07.19-23.36.47:157][877]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2017.07.19-23.36.48:335][949]LogEditorViewport: Clicking on Actor (LMB): AmbientSound (Starter_Background_Cue)
+[2017.07.19-23.36.48:677][965]Cmd: DELETE
+[2017.07.19-23.36.48:677][965]Cmd: ACTOR DELETE
+[2017.07.19-23.36.48:678][965]LogEditorActor: Deleted Actor: AmbientSound
+[2017.07.19-23.36.48:692][965]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2017.07.19-23.36.49:565][ 19]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.07.19-23.36.50:848][ 87]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Chair)
+[2017.07.19-23.36.51:366][111]Cmd: DELETE
+[2017.07.19-23.36.51:366][111]Cmd: ACTOR DELETE
+[2017.07.19-23.36.51:366][111]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.07.19-23.36.51:382][111]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2017.07.19-23.36.52:017][149]LogEditorViewport: Clicking on Actor (LMB): bungee_C (bungee)
+[2017.07.19-23.36.52:180][152]Cmd: DELETE
+[2017.07.19-23.36.52:180][152]Cmd: ACTOR DELETE
+[2017.07.19-23.36.52:180][152]LogEditorActor: Deleted Actor: bungee_C
+[2017.07.19-23.36.52:196][152]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2017.07.19-23.36.55:327][337]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Statue)
+[2017.07.19-23.36.56:077][375]Cmd: DELETE
+[2017.07.19-23.36.56:077][375]Cmd: ACTOR DELETE
+[2017.07.19-23.36.56:077][375]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.07.19-23.36.56:092][375]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2017.07.19-23.36.59:313][560]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor)
+[2017.07.19-23.37.10:431][122]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.07.19-23.37.10:447][122]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.19-23.37.10:447][122]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.19-23.37.10:447][122]PIE: New page: PIE session: Minimal_Default (Jul 20, 2017, 7:37:10 PM)
+[2017.07.19-23.37.10:447][122]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2017.07.19-23.37.10:451][122]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003246s)
+[2017.07.19-23.37.10:451][122]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.07.19-23.37.10:451][122]LogPlayLevel: PIE: World Init took: (0.000793s)
+[2017.07.19-23.37.10:452][122]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.004268s)
+[2017.07.19-23.37.10:496][122]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.19-23.37.10:501][122]LogInit: FAudioDevice initialized.
+[2017.07.19-23.37.10:546][122]LogLoad: Game class is 'BungeeKickerMode_C'
+[2017.07.19-23.37.10:548][122]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2017.07.20-09.37.10
+[2017.07.19-23.37.10:549][122]LogWorld: Bringing up level for play took: 0.001905
+[2017.07.19-23.37.10:558][122]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.806
+[2017.07.19-23.37.10:558][122]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.19-23.37.11:717][167]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.19-23.37.11:847][167]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.19-23.37.11:866][167]LogActorComponent: ReregisterComponent: (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Starter_Background_Cue_2.AudioComponent0) Not currently registered. Aborting.
+[2017.07.19-23.37.21:604][663]LogEditorViewport: Clicking on Actor (LMB): ContolWidget_C (ContolWidget)
+[2017.07.19-23.37.48:688][958]LogMetaData: Removing '/Game/Player1ControlWidget.Player1ControlWidget:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/ContolWidget.PackageMetaData'
+[2017.07.19-23.37.48:688][958]LogMetaData: Removing '/Game/Player1ControlWidget.SKEL_Player1ControlWidget_C' ref from Metadata '/Game/ContolWidget.PackageMetaData'
+[2017.07.19-23.37.48:688][958]LogMetaData: Removing '/Game/Player1ControlWidget.Player1ControlWidget_C' ref from Metadata '/Game/ContolWidget.PackageMetaData'
+[2017.07.19-23.37.48:688][958]LogMetaData: Removing '/Game/Player1ControlWidget.Player1ControlWidget:EventGraph.K2Node_Event_0' ref from Metadata '/Game/ContolWidget.PackageMetaData'
+[2017.07.19-23.37.48:688][958]LogMetaData: Removing '/Game/Player1ControlWidget.Player1ControlWidget:EventGraph.K2Node_Event_1' ref from Metadata '/Game/ContolWidget.PackageMetaData'
+[2017.07.19-23.37.48:688][958]LogMetaData: Removing '/Game/Player1ControlWidget.Player1ControlWidget:EventGraph.K2Node_Event_2' ref from Metadata '/Game/ContolWidget.PackageMetaData'
+[2017.07.19-23.37.48:705][958]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player1ControlWidget" FILE="../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Content/Player1ControlWidget.uasset" SILENT=true
+[2017.07.19-23.37.48:712][958]LogSavePackage: Save=6.50ms
+[2017.07.19-23.37.48:712][958]LogSavePackage: Moving '../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Saved/Player1ControlWidgetB500167C47EF027354636CAE7C7286EC.tmp' to '../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Content/Player1ControlWidget.uasset'
+[2017.07.19-23.37.48:713][958]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Content/Player1ControlWidget.uasset
+[2017.07.19-23.38.09:245][ 21]LogSavePackage: Save=96.76ms
+[2017.07.19-23.38.09:245][ 21]LogSavePackage: Moving '../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Saved/Minimal_Default07994DF947033426E3CE928B97E4F49E.tmp' to '../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Content/StarterContent/Maps/Minimal_Default.umap'
+[2017.07.19-23.38.09:246][ 21]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Content/StarterContent/Maps/Minimal_Default.umap
+[2017.07.19-23.38.09:262][ 21]LogFileHelpers: Saving map 'Minimal_Default' took 0.169
+[2017.07.19-23.38.09:265][ 21]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ControlUI" FILE="../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Content/ControlUI.uasset" SILENT=true
+[2017.07.19-23.38.09:272][ 21]LogSavePackage: Save=5.66ms
+[2017.07.19-23.38.09:272][ 21]LogSavePackage: Moving '../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Saved/ControlUI5E2D78C941A3D8B7D36CE280BB6AE664.tmp' to '../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Content/ControlUI.uasset'
+[2017.07.19-23.38.09:273][ 21]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Content/ControlUI.uasset
+[2017.07.19-23.38.09:281][ 21]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Credits" FILE="../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Content/Credits.uasset" SILENT=true
+[2017.07.19-23.38.09:303][ 21]LogSavePackage: Save=21.67ms
+[2017.07.19-23.38.09:303][ 21]LogSavePackage: Moving '../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Saved/CreditsCFBB87484CB10DCC2EE3F8A1B5E15B8C.tmp' to '../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Content/Credits.uasset'
+[2017.07.19-23.38.09:304][ 21]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Content/Credits.uasset
+[2017.07.19-23.38.09:316][ 21]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Logo" FILE="../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Content/Logo.uasset" SILENT=true
+[2017.07.19-23.38.09:348][ 21]LogSavePackage: Save=30.66ms
+[2017.07.19-23.38.09:348][ 21]LogSavePackage: Moving '../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Saved/Logo0510977644613BE1A1ECC3835F99A681.tmp' to '../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Content/Logo.uasset'
+[2017.07.19-23.38.09:349][ 21]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Content/Logo.uasset
+[2017.07.19-23.38.09:361][ 21]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Play_Button" FILE="../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Content/Play_Button.uasset" SILENT=true
+[2017.07.19-23.38.09:415][ 21]LogSavePackage: Save=52.86ms
+[2017.07.19-23.38.09:415][ 21]LogSavePackage: Moving '../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Saved/Play_ButtonF9AF7C30420E81DFAD997C97AFEE3113.tmp' to '../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Content/Play_Button.uasset'
+[2017.07.19-23.38.09:416][ 21]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Content/Play_Button.uasset
+[2017.07.19-23.38.09:428][ 21]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Popup_U" FILE="../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Content/Popup_U.uasset" SILENT=true
+[2017.07.19-23.38.09:446][ 21]LogSavePackage: Save=17.22ms
+[2017.07.19-23.38.09:446][ 21]LogSavePackage: Moving '../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Saved/Popup_U174B3FA246F353A5A23D62B661464C7C.tmp' to '../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Content/Popup_U.uasset'
+[2017.07.19-23.38.09:447][ 21]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Content/Popup_U.uasset
+[2017.07.19-23.38.09:457][ 21]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Popup_W" FILE="../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Content/Popup_W.uasset" SILENT=true
+[2017.07.19-23.38.09:476][ 21]LogSavePackage: Save=17.84ms
+[2017.07.19-23.38.09:476][ 21]LogSavePackage: Moving '../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Saved/Popup_W320936B441CDF941FB068786E39FB720.tmp' to '../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Content/Popup_W.uasset'
+[2017.07.19-23.38.09:477][ 21]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Content/Popup_W.uasset
+[2017.07.19-23.38.09:480][ 21]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ContolWidget" FILE="../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Content/ContolWidget.uasset" SILENT=true
+[2017.07.19-23.38.09:481][ 21]LogSavePackage: Save=0.67ms
+[2017.07.19-23.38.09:481][ 21]LogSavePackage: Moving '../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Saved/ContolWidget8ECD7E8541BE6A75D2ACEE9E83BD0365.tmp' to '../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Content/ContolWidget.uasset'
+[2017.07.19-23.38.09:482][ 21]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Content/ContolWidget.uasset
+[2017.07.19-23.38.09:485][ 21]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player2ControlWidget" FILE="../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Content/Player2ControlWidget.uasset" SILENT=true
+[2017.07.19-23.38.09:492][ 21]LogSavePackage: Save=6.30ms
+[2017.07.19-23.38.09:492][ 21]LogSavePackage: Moving '../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Saved/Player2ControlWidget6D2B28B5423BBC765A4C019193B22A81.tmp' to '../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Content/Player2ControlWidget.uasset'
+[2017.07.19-23.38.09:493][ 21]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Content/Player2ControlWidget.uasset
+[2017.07.19-23.38.39:720][466]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ControlUI2" FILE="../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Content/ControlUI2.uasset" SILENT=true
+[2017.07.19-23.38.39:727][466]LogSavePackage: Save=5.63ms
+[2017.07.19-23.38.39:727][466]LogSavePackage: Moving '../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Saved/ControlUI2A924FBC045AA2E74A3678B869DB3A397.tmp' to '../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Content/ControlUI2.uasset'
+[2017.07.19-23.38.39:728][466]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Content/ControlUI2.uasset
+[2017.07.19-23.38.41:796][550]BlueprintLog: New page: Compile ControlUI2
+[2017.07.19-23.38.50:463][897]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.07.19-23.38.54:975][129]Cmd: TRANSACTION UNDO
+[2017.07.19-23.38.54:975][129]LogEditorTransaction: Undo Move Components
+[2017.07.19-23.39.11:057][904]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.07.19-23.39.15:987][150]LogEditorViewport: Clicking on Actor (LMB): Player2ControlWidget_C (Player2ControlWidget)
+[2017.07.19-23.39.20:135][370]LogEditorViewport: Clicking on Actor (LMB): Player1ControlWidget_C (ContolWidget)
+[2017.07.19-23.39.25:820][611]LogEditorViewport: Clicking on Actor (LMB): Player2ControlWidget_C (Player2ControlWidget)
+[2017.07.19-23.39.27:387][689]LogEditorViewport: Clicking on Actor (LMB): Player1ControlWidget_C (ContolWidget)
+[2017.07.19-23.39.30:870][833]LogEditorViewport: Clicking on Actor (LMB): Player2ControlWidget_C (Player2ControlWidget)
+[2017.07.19-23.39.40:117][213]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.07.19-23.39.40:924][254]LogEditorViewport: Clicking on Actor (LMB): Player2ControlWidget_C (Player2ControlWidget)
+[2017.07.19-23.39.43:066][369]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.07.19-23.39.43:801][406]LogEditorViewport: Clicking on Actor (LMB): Player1ControlWidget_C (ContolWidget)
+[2017.07.19-23.39.44:246][428]LogEditorViewport: Clicking on Actor (LMB): Player2ControlWidget_C (Player2ControlWidget)
+[2017.07.19-23.39.45:872][513]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.07.19-23.39.46:368][537]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor)
+[2017.07.19-23.40.52:233][ 32]LogEditorViewport: Clicking on Actor (LMB): Player2ControlWidget_C (Player2ControlWidget)
+[2017.07.19-23.40.59:810][333]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.07.19-23.41.06:198][573]LogEditorViewport: Clicking on Actor (LMB): Player2ControlWidget_C (Player2ControlWidget)
+[2017.07.19-23.41.21:884][265]LogEditorViewport: Clicking on Actor (LMB): Player1ControlWidget_C (ContolWidget)
+[2017.07.19-23.41.31:690][754]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ControlUI" FILE="../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Content/ControlUI.uasset" SILENT=true
+[2017.07.19-23.41.31:698][754]LogSavePackage: Save=5.09ms
+[2017.07.19-23.41.31:698][754]LogSavePackage: Moving '../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Saved/ControlUI53C9026D493E78FAE8E8669EE6B572C6.tmp' to '../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Content/ControlUI.uasset'
+[2017.07.19-23.41.31:698][754]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Content/ControlUI.uasset
+[2017.07.19-23.41.31:701][754]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ControlUI2" FILE="../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Content/ControlUI2.uasset" SILENT=true
+[2017.07.19-23.41.31:707][754]LogSavePackage: Save=5.01ms
+[2017.07.19-23.41.31:707][754]LogSavePackage: Moving '../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Saved/ControlUI2712A25A847DB898D501903BF58D05DAD.tmp' to '../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Content/ControlUI2.uasset'
+[2017.07.19-23.41.31:708][754]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Content/ControlUI2.uasset
+[2017.07.19-23.41.33:814][854]LogSavePackage: Save=103.02ms
+[2017.07.19-23.41.33:814][854]LogSavePackage: Moving '../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Saved/Minimal_Default585B6B024043F6D77D699FA1EBD7625D.tmp' to '../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Content/StarterContent/Maps/Minimal_Default.umap'
+[2017.07.19-23.41.33:815][854]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Content/StarterContent/Maps/Minimal_Default.umap
+[2017.07.19-23.41.33:832][854]LogFileHelpers: Saving map 'Minimal_Default' took 0.176
+[2017.07.19-23.41.55:070][859]LogEditorViewport: Clicking on Actor (LMB): AtmosphericFog (Atmospheric Fog)
+[2017.07.19-23.42.15:148][700]LogEditorActor: Deleted Actor: DirectionalLight
+[2017.07.19-23.42.15:149][700]LogEditorActor: Deleted Actor: PostProcessVolume
+[2017.07.19-23.42.15:166][700]LogEditorActor: Deleted 2 Actors (2.907 secs)
+[2017.07.19-23.42.16:762][797]LogEditorViewport: Clicking on Actor (LMB): AtmosphericFog (Atmospheric Fog)
+[2017.07.19-23.42.18:228][875]Cmd: DELETE
+[2017.07.19-23.42.18:228][875]Cmd: ACTOR DELETE
+[2017.07.19-23.42.18:229][875]LogEditorActor: Deleted Actor: AtmosphericFog
+[2017.07.19-23.42.18:244][875]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2017.07.19-23.42.19:343][931]LogEditorActor: Deleted Actor: BP_Sky_Sphere_C
+[2017.07.19-23.42.19:359][931]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2017.07.19-23.42.21:426][ 23]Cmd: TRANSACTION UNDO
+[2017.07.19-23.42.21:426][ 23]LogEditorTransaction: Undo Delete selection
+[2017.07.19-23.42.26:907][243]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.07.19-23.42.26:921][243]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.19-23.42.26:921][243]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.19-23.42.26:921][243]PIE: New page: PIE session: Minimal_Default (Jul 20, 2017, 7:42:26 PM)
+[2017.07.19-23.42.26:921][243]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2017.07.19-23.42.26:923][243]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001570s)
+[2017.07.19-23.42.26:923][243]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.07.19-23.42.26:923][243]LogPlayLevel: PIE: World Init took: (0.000619s)
+[2017.07.19-23.42.26:924][243]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.002396s)
+[2017.07.19-23.42.26:940][243]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.19-23.42.26:944][243]LogInit: FAudioDevice initialized.
+[2017.07.19-23.42.26:990][243]LogLoad: Game class is 'BungeeKickerMode_C'
+[2017.07.19-23.42.26:993][243]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2017.07.20-09.42.26
+[2017.07.19-23.42.26:994][243]LogWorld: Bringing up level for play took: 0.001670
+[2017.07.19-23.42.27:002][243]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.734
+[2017.07.19-23.42.27:002][243]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.19-23.42.42:427][824]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.19-23.42.42:479][824]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.19-23.42.54:206][333]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.07.19-23.43.56:484][841]BlueprintLog: New page: Compile BungeeKickerMode
+[2017.07.19-23.43.59:582][961]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.07.19-23.43.59:597][961]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.19-23.43.59:597][961]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.19-23.43.59:597][961]PIE: New page: PIE session: Minimal_Default (Jul 20, 2017, 7:43:59 PM)
+[2017.07.19-23.43.59:597][961]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2017.07.19-23.43.59:600][961]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002198s)
+[2017.07.19-23.43.59:600][961]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.07.19-23.43.59:601][961]LogPlayLevel: PIE: World Init took: (0.000864s)
+[2017.07.19-23.43.59:601][961]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.003366s)
+[2017.07.19-23.43.59:645][961]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.19-23.43.59:650][961]LogInit: FAudioDevice initialized.
+[2017.07.19-23.43.59:694][961]LogLoad: Game class is 'BungeeKickerMode_C'
+[2017.07.19-23.43.59:697][961]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2017.07.20-09.43.59
+[2017.07.19-23.43.59:697][961]LogWorld: Bringing up level for play took: 0.001741
+[2017.07.19-23.43.59:705][961]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.026
+[2017.07.19-23.43.59:706][961]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.19-23.44.01:421][ 34]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.19-23.44.01:550][ 34]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.19-23.44.50:608][417]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.07.19-23.44.50:624][417]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.19-23.44.50:624][417]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.19-23.44.50:625][417]PIE: New page: PIE session: Minimal_Default (Jul 20, 2017, 7:44:50 PM)
+[2017.07.19-23.44.50:625][417]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2017.07.19-23.44.50:626][417]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001596s)
+[2017.07.19-23.44.50:627][417]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.07.19-23.44.50:627][417]LogPlayLevel: PIE: World Init took: (0.000632s)
+[2017.07.19-23.44.50:627][417]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.002434s)
+[2017.07.19-23.44.50:671][417]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.19-23.44.50:676][417]LogInit: FAudioDevice initialized.
+[2017.07.19-23.44.50:721][417]LogLoad: Game class is 'BungeeKickerMode_C'
+[2017.07.19-23.44.50:723][417]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2017.07.20-09.44.50
+[2017.07.19-23.44.50:723][417]LogWorld: Bringing up level for play took: 0.001511
+[2017.07.19-23.44.50:731][417]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 1.003
+[2017.07.19-23.44.50:731][417]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.19-23.45.03:494][944]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.19-23.45.03:622][944]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.19-23.45.08:036][122]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.07.19-23.45.38:345][605]LogEditorViewport: Clicking on Actor (LMB): Player2ControlWidget_C (Player2ControlWidget)
+[2017.07.19-23.45.39:177][647]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.07.19-23.48.41:377][515]LogEditorViewport: Clicking on Actor (LMB): Player2ControlWidget_C (Player2ControlWidget)
+[2017.07.19-23.48.42:357][570]LogEditorViewport: Clicking on Actor (LMB): Player1ControlWidget_C (ContolWidget)
+[2017.07.19-23.49.58:298][807]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.07.19-23.51.03:372][945]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Credits" FILE="../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Content/UI/Credits.uasset" SILENT=true
+[2017.07.19-23.51.03:379][945]LogSavePackage: Save=6.30ms
+[2017.07.19-23.51.03:379][945]LogSavePackage: Moving '../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Saved/CreditsB533AE554996488DB124DCA17068EE02.tmp' to '../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Content/UI/Credits.uasset'
+[2017.07.19-23.51.03:380][945]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Content/UI/Credits.uasset
+[2017.07.19-23.51.03:387][945]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Logo" FILE="../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Content/UI/Logo.uasset" SILENT=true
+[2017.07.19-23.51.03:395][945]LogSavePackage: Save=7.89ms
+[2017.07.19-23.51.03:395][945]LogSavePackage: Moving '../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Saved/Logo8F0472664EA7117AC509FAAF021E6D03.tmp' to '../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Content/UI/Logo.uasset'
+[2017.07.19-23.51.03:396][945]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Content/UI/Logo.uasset
+[2017.07.19-23.51.03:403][945]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Play_Button" FILE="../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Content/UI/Play_Button.uasset" SILENT=true
+[2017.07.19-23.51.03:416][945]LogSavePackage: Save=12.37ms
+[2017.07.19-23.51.03:416][945]LogSavePackage: Moving '../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Saved/Play_ButtonA94333904C7468120D996EA72810561B.tmp' to '../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Content/UI/Play_Button.uasset'
+[2017.07.19-23.51.03:417][945]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Content/UI/Play_Button.uasset
+[2017.07.19-23.51.03:427][945]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Popup_U" FILE="../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Content/UI/Popup_U.uasset" SILENT=true
+[2017.07.19-23.51.03:435][945]LogSavePackage: Save=7.51ms
+[2017.07.19-23.51.03:435][945]LogSavePackage: Moving '../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Saved/Popup_U219135BD45C23CF40A2AE38BD1B5DFDB.tmp' to '../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Content/UI/Popup_U.uasset'
+[2017.07.19-23.51.03:436][945]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Content/UI/Popup_U.uasset
+[2017.07.19-23.51.03:446][945]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Popup_W" FILE="../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Content/UI/Popup_W.uasset" SILENT=true
+[2017.07.19-23.51.03:455][945]LogSavePackage: Save=8.20ms
+[2017.07.19-23.51.03:455][945]LogSavePackage: Moving '../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Saved/Popup_W15AE608843FD83307426AAA9913156D2.tmp' to '../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Content/UI/Popup_W.uasset'
+[2017.07.19-23.51.03:456][945]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Content/UI/Popup_W.uasset
+[2017.07.19-23.51.03:849][945]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ControlUI2" FILE="../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Content/ControlUI2.uasset" SILENT=true
+[2017.07.19-23.51.03:857][945]LogSavePackage: Save=5.51ms
+[2017.07.19-23.51.03:858][945]LogSavePackage: Moving '../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Saved/ControlUI2F003AF6D43A128F3D87404972C322904.tmp' to '../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Content/ControlUI2.uasset'
+[2017.07.19-23.51.03:858][945]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Content/ControlUI2.uasset
+[2017.07.19-23.51.03:861][945]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ControlUI" FILE="../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Content/ControlUI.uasset" SILENT=true
+[2017.07.19-23.51.03:867][945]LogSavePackage: Save=5.16ms
+[2017.07.19-23.51.03:867][945]LogSavePackage: Moving '../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Saved/ControlUI5B83B350496E4F605AC7CB89C8BBDFAB.tmp' to '../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Content/ControlUI.uasset'
+[2017.07.19-23.51.03:868][945]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Content/ControlUI.uasset
+[2017.07.19-23.51.23:911][905]LogMetaData: Removing '/Game/PLayer/ControlUI.SKEL_ControlUI_C' ref from Metadata '/Game/ControlUI.PackageMetaData'
+[2017.07.19-23.51.23:911][905]LogMetaData: Removing '/Game/PLayer/ControlUI.ControlUI_C' ref from Metadata '/Game/ControlUI.PackageMetaData'
+[2017.07.19-23.51.23:911][905]LogMetaData: Removing '/Game/PLayer/ControlUI.ControlUI:EventGraph.K2Node_Event_0' ref from Metadata '/Game/ControlUI.PackageMetaData'
+[2017.07.19-23.51.23:911][905]LogMetaData: Removing '/Game/PLayer/ControlUI.ControlUI:EventGraph.K2Node_Event_1' ref from Metadata '/Game/ControlUI.PackageMetaData'
+[2017.07.19-23.51.23:911][905]LogMetaData: Removing '/Game/PLayer/ControlUI.ControlUI_C:ExecuteUbergraph_ControlUI' ref from Metadata '/Game/ControlUI.PackageMetaData'
+[2017.07.19-23.51.23:911][905]LogMetaData: Removing '/Game/PLayer/ControlUI.ControlUI_C:Construct' ref from Metadata '/Game/ControlUI.PackageMetaData'
+[2017.07.19-23.51.23:911][905]LogMetaData: Removing '/Game/PLayer/ControlUI.ControlUI_C:Button_0' ref from Metadata '/Game/ControlUI.PackageMetaData'
+[2017.07.19-23.51.23:911][905]LogMetaData: Removing '/Game/PLayer/ControlUI.ControlUI_C:Image_439' ref from Metadata '/Game/ControlUI.PackageMetaData'
+[2017.07.19-23.51.23:911][905]LogMetaData: Removing '/Game/PLayer/ControlUI.SKEL_ControlUI_C:ExecuteUbergraph_ControlUI' ref from Metadata '/Game/ControlUI.PackageMetaData'
+[2017.07.19-23.51.23:911][905]LogMetaData: Removing '/Game/PLayer/ControlUI.SKEL_ControlUI_C:Construct' ref from Metadata '/Game/ControlUI.PackageMetaData'
+[2017.07.19-23.51.23:911][905]LogMetaData: Removing '/Game/PLayer/ControlUI.SKEL_ControlUI_C:Button_0' ref from Metadata '/Game/ControlUI.PackageMetaData'
+[2017.07.19-23.51.23:911][905]LogMetaData: Removing '/Game/PLayer/ControlUI.SKEL_ControlUI_C:Image_439' ref from Metadata '/Game/ControlUI.PackageMetaData'
+[2017.07.19-23.51.23:916][905]LogMetaData: Removing '/Game/PLayer/ControlUI2.SKEL_ControlUI2_C' ref from Metadata '/Game/ControlUI2.PackageMetaData'
+[2017.07.19-23.51.23:916][905]LogMetaData: Removing '/Game/PLayer/ControlUI2.ControlUI2_C:ExecuteUbergraph_ControlUI2' ref from Metadata '/Game/ControlUI2.PackageMetaData'
+[2017.07.19-23.51.23:916][905]LogMetaData: Removing '/Game/PLayer/ControlUI2.ControlUI2_C:Construct' ref from Metadata '/Game/ControlUI2.PackageMetaData'
+[2017.07.19-23.51.23:916][905]LogMetaData: Removing '/Game/PLayer/ControlUI2.ControlUI2_C:Button_0' ref from Metadata '/Game/ControlUI2.PackageMetaData'
+[2017.07.19-23.51.23:916][905]LogMetaData: Removing '/Game/PLayer/ControlUI2.ControlUI2_C:Image_439' ref from Metadata '/Game/ControlUI2.PackageMetaData'
+[2017.07.19-23.51.23:916][905]LogMetaData: Removing '/Game/PLayer/ControlUI2.SKEL_ControlUI2_C:ExecuteUbergraph_ControlUI2' ref from Metadata '/Game/ControlUI2.PackageMetaData'
+[2017.07.19-23.51.23:916][905]LogMetaData: Removing '/Game/PLayer/ControlUI2.SKEL_ControlUI2_C:Construct' ref from Metadata '/Game/ControlUI2.PackageMetaData'
+[2017.07.19-23.51.23:916][905]LogMetaData: Removing '/Game/PLayer/ControlUI2.SKEL_ControlUI2_C:Button_0' ref from Metadata '/Game/ControlUI2.PackageMetaData'
+[2017.07.19-23.51.23:916][905]LogMetaData: Removing '/Game/PLayer/ControlUI2.SKEL_ControlUI2_C:Image_439' ref from Metadata '/Game/ControlUI2.PackageMetaData'
+[2017.07.19-23.51.23:916][905]LogMetaData: Removing '/Game/PLayer/ControlUI2.ControlUI2_C' ref from Metadata '/Game/ControlUI2.PackageMetaData'
+[2017.07.19-23.51.23:920][905]LogMetaData: Removing '/Game/PLayer/Player1ControlWidget.Player1ControlWidget_C' ref from Metadata '/Game/Player1ControlWidget.PackageMetaData'
+[2017.07.19-23.51.23:920][905]LogMetaData: Removing '/Game/PLayer/Player1ControlWidget.SKEL_Player1ControlWidget_C' ref from Metadata '/Game/Player1ControlWidget.PackageMetaData'
+[2017.07.19-23.51.23:920][905]LogMetaData: Removing '/Game/PLayer/Player1ControlWidget.Player1ControlWidget:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Player1ControlWidget.PackageMetaData'
+[2017.07.19-23.51.23:920][905]LogMetaData: Removing '/Game/PLayer/Player1ControlWidget.Player1ControlWidget:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Player1ControlWidget.PackageMetaData'
+[2017.07.19-23.51.23:920][905]LogMetaData: Removing '/Game/PLayer/Player1ControlWidget.Player1ControlWidget:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Player1ControlWidget.PackageMetaData'
+[2017.07.19-23.51.23:920][905]LogMetaData: Removing '/Game/PLayer/Player1ControlWidget.Player1ControlWidget:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Player1ControlWidget.PackageMetaData'
+[2017.07.19-23.51.23:920][905]LogMetaData: Removing '/Game/PLayer/Player1ControlWidget.SKEL_Player1ControlWidget_C:DefaultSceneRoot' ref from Metadata '/Game/Player1ControlWidget.PackageMetaData'
+[2017.07.19-23.51.23:920][905]LogMetaData: Removing '/Game/PLayer/Player1ControlWidget.SKEL_Player1ControlWidget_C:UserConstructionScript' ref from Metadata '/Game/Player1ControlWidget.PackageMetaData'
+[2017.07.19-23.51.23:920][905]LogMetaData: Removing '/Game/PLayer/Player1ControlWidget.Player1ControlWidget_C:DefaultSceneRoot' ref from Metadata '/Game/Player1ControlWidget.PackageMetaData'
+[2017.07.19-23.51.23:920][905]LogMetaData: Removing '/Game/PLayer/Player1ControlWidget.Player1ControlWidget_C:UserConstructionScript' ref from Metadata '/Game/Player1ControlWidget.PackageMetaData'
+[2017.07.19-23.51.23:924][905]LogMetaData: Removing '/Game/PLayer/Player2ControlWidget.SKEL_Player2ControlWidget_C:UserConstructionScript' ref from Metadata '/Game/Player2ControlWidget.PackageMetaData'
+[2017.07.19-23.51.23:924][905]LogMetaData: Removing '/Game/PLayer/Player2ControlWidget.SKEL_Player2ControlWidget_C:DefaultSceneRoot' ref from Metadata '/Game/Player2ControlWidget.PackageMetaData'
+[2017.07.19-23.51.23:924][905]LogMetaData: Removing '/Game/PLayer/Player2ControlWidget.SKEL_Player2ControlWidget_C' ref from Metadata '/Game/Player2ControlWidget.PackageMetaData'
+[2017.07.19-23.51.23:924][905]LogMetaData: Removing '/Game/PLayer/Player2ControlWidget.Player2ControlWidget_C' ref from Metadata '/Game/Player2ControlWidget.PackageMetaData'
+[2017.07.19-23.51.23:924][905]LogMetaData: Removing '/Game/PLayer/Player2ControlWidget.Player2ControlWidget_C:DefaultSceneRoot' ref from Metadata '/Game/Player2ControlWidget.PackageMetaData'
+[2017.07.19-23.51.23:924][905]LogMetaData: Removing '/Game/PLayer/Player2ControlWidget.Player2ControlWidget_C:UserConstructionScript' ref from Metadata '/Game/Player2ControlWidget.PackageMetaData'
+[2017.07.19-23.51.23:937][905]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PLayer/ControlUI" FILE="../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Content/PLayer/ControlUI.uasset" SILENT=true
+[2017.07.19-23.51.23:943][905]LogSavePackage: Save=5.65ms
+[2017.07.19-23.51.23:943][905]LogSavePackage: Moving '../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Saved/ControlUI05C53027452F51C221FB5BB04BB01CBA.tmp' to '../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Content/PLayer/ControlUI.uasset'
+[2017.07.19-23.51.23:944][905]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Content/PLayer/ControlUI.uasset
+[2017.07.19-23.51.23:947][905]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ControlUI" FILE="../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Content/ControlUI.uasset" SILENT=true
+[2017.07.19-23.51.23:950][905]LogSavePackage: Save=2.04ms
+[2017.07.19-23.51.23:950][905]LogSavePackage: Moving '../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Saved/ControlUI599601A24E4EB8560A6D6EB136A9FB3C.tmp' to '../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Content/ControlUI.uasset'
+[2017.07.19-23.51.23:952][905]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Content/ControlUI.uasset
+[2017.07.19-23.51.23:954][905]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PLayer/ControlUI2" FILE="../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Content/PLayer/ControlUI2.uasset" SILENT=true
+[2017.07.19-23.51.23:960][905]LogSavePackage: Save=5.69ms
+[2017.07.19-23.51.23:960][905]LogSavePackage: Moving '../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Saved/ControlUI240BFE93042E912E46CEAA6B45FA6DC2D.tmp' to '../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Content/PLayer/ControlUI2.uasset'
+[2017.07.19-23.51.23:961][905]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Content/PLayer/ControlUI2.uasset
+[2017.07.19-23.51.23:964][905]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ControlUI2" FILE="../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Content/ControlUI2.uasset" SILENT=true
+[2017.07.19-23.51.23:967][905]LogSavePackage: Save=1.69ms
+[2017.07.19-23.51.23:967][905]LogSavePackage: Moving '../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Saved/ControlUI2B52E506B4D844AF5452E7785729CA915.tmp' to '../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Content/ControlUI2.uasset'
+[2017.07.19-23.51.23:968][905]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Content/ControlUI2.uasset
+[2017.07.19-23.51.23:971][905]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PLayer/Player1ControlWidget" FILE="../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Content/PLayer/Player1ControlWidget.uasset" SILENT=true
+[2017.07.19-23.51.23:978][905]LogSavePackage: Save=6.40ms
+[2017.07.19-23.51.23:978][905]LogSavePackage: Moving '../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Saved/Player1ControlWidget0D82687945D575542D01DABC60D62061.tmp' to '../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Content/PLayer/Player1ControlWidget.uasset'
+[2017.07.19-23.51.23:979][905]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Content/PLayer/Player1ControlWidget.uasset
+[2017.07.19-23.51.23:982][905]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player1ControlWidget" FILE="../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Content/Player1ControlWidget.uasset" SILENT=true
+[2017.07.19-23.51.23:986][905]LogSavePackage: Save=2.13ms
+[2017.07.19-23.51.23:986][905]LogSavePackage: Moving '../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Saved/Player1ControlWidget8D9A0FE242212658CBC6BBAC882F1745.tmp' to '../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Content/Player1ControlWidget.uasset'
+[2017.07.19-23.51.23:987][905]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Content/Player1ControlWidget.uasset
+[2017.07.19-23.51.23:989][905]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PLayer/Player2ControlWidget" FILE="../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Content/PLayer/Player2ControlWidget.uasset" SILENT=true
+[2017.07.19-23.51.23:996][905]LogSavePackage: Save=6.20ms
+[2017.07.19-23.51.23:996][905]LogSavePackage: Moving '../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Saved/Player2ControlWidget95017F134B8A73EF9F8B96BE734DD59D.tmp' to '../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Content/PLayer/Player2ControlWidget.uasset'
+[2017.07.19-23.51.23:997][905]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Content/PLayer/Player2ControlWidget.uasset
+[2017.07.19-23.51.24:000][905]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player2ControlWidget" FILE="../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Content/Player2ControlWidget.uasset" SILENT=true
+[2017.07.19-23.51.24:004][905]LogSavePackage: Save=1.95ms
+[2017.07.19-23.51.24:004][905]LogSavePackage: Moving '../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Saved/Player2ControlWidgetD6101C20472FC7FE570D809CA4CF9A9A.tmp' to '../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Content/Player2ControlWidget.uasset'
+[2017.07.19-23.51.24:005][905]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Content/Player2ControlWidget.uasset
+[2017.07.19-23.51.29:371][125]LogMetaData: Removing '/Game/PLayer/PlayerUI/Player2ControlWidget.Player2ControlWidget_C' ref from Metadata '/Game/PLayer/Player2ControlWidget.PackageMetaData'
+[2017.07.19-23.51.29:371][125]LogMetaData: Removing '/Game/PLayer/PlayerUI/Player2ControlWidget.Player2ControlWidget_C:DefaultSceneRoot' ref from Metadata '/Game/PLayer/Player2ControlWidget.PackageMetaData'
+[2017.07.19-23.51.29:371][125]LogMetaData: Removing '/Game/PLayer/PlayerUI/Player2ControlWidget.Player2ControlWidget_C:UserConstructionScript' ref from Metadata '/Game/PLayer/Player2ControlWidget.PackageMetaData'
+[2017.07.19-23.51.29:371][125]LogMetaData: Removing '/Game/PLayer/PlayerUI/Player2ControlWidget.SKEL_Player2ControlWidget_C' ref from Metadata '/Game/PLayer/Player2ControlWidget.PackageMetaData'
+[2017.07.19-23.51.29:371][125]LogMetaData: Removing '/Game/PLayer/PlayerUI/Player2ControlWidget.SKEL_Player2ControlWidget_C:DefaultSceneRoot' ref from Metadata '/Game/PLayer/Player2ControlWidget.PackageMetaData'
+[2017.07.19-23.51.29:371][125]LogMetaData: Removing '/Game/PLayer/PlayerUI/Player2ControlWidget.SKEL_Player2ControlWidget_C:UserConstructionScript' ref from Metadata '/Game/PLayer/Player2ControlWidget.PackageMetaData'
+[2017.07.19-23.51.29:375][125]LogMetaData: Removing '/Game/PLayer/PlayerUI/ControlUI.ControlUI_C' ref from Metadata '/Game/PLayer/ControlUI.PackageMetaData'
+[2017.07.19-23.51.29:375][125]LogMetaData: Removing '/Game/PLayer/PlayerUI/ControlUI.ControlUI_C:Image_439' ref from Metadata '/Game/PLayer/ControlUI.PackageMetaData'
+[2017.07.19-23.51.29:375][125]LogMetaData: Removing '/Game/PLayer/PlayerUI/ControlUI.ControlUI_C:Button_0' ref from Metadata '/Game/PLayer/ControlUI.PackageMetaData'
+[2017.07.19-23.51.29:375][125]LogMetaData: Removing '/Game/PLayer/PlayerUI/ControlUI.ControlUI_C:ExecuteUbergraph_ControlUI' ref from Metadata '/Game/PLayer/ControlUI.PackageMetaData'
+[2017.07.19-23.51.29:375][125]LogMetaData: Removing '/Game/PLayer/PlayerUI/ControlUI.ControlUI_C:Construct' ref from Metadata '/Game/PLayer/ControlUI.PackageMetaData'
+[2017.07.19-23.51.29:375][125]LogMetaData: Removing '/Game/PLayer/PlayerUI/ControlUI.SKEL_ControlUI_C' ref from Metadata '/Game/PLayer/ControlUI.PackageMetaData'
+[2017.07.19-23.51.29:375][125]LogMetaData: Removing '/Game/PLayer/PlayerUI/ControlUI.SKEL_ControlUI_C:Image_439' ref from Metadata '/Game/PLayer/ControlUI.PackageMetaData'
+[2017.07.19-23.51.29:375][125]LogMetaData: Removing '/Game/PLayer/PlayerUI/ControlUI.SKEL_ControlUI_C:Button_0' ref from Metadata '/Game/PLayer/ControlUI.PackageMetaData'
+[2017.07.19-23.51.29:375][125]LogMetaData: Removing '/Game/PLayer/PlayerUI/ControlUI.SKEL_ControlUI_C:ExecuteUbergraph_ControlUI' ref from Metadata '/Game/PLayer/ControlUI.PackageMetaData'
+[2017.07.19-23.51.29:375][125]LogMetaData: Removing '/Game/PLayer/PlayerUI/ControlUI.SKEL_ControlUI_C:Construct' ref from Metadata '/Game/PLayer/ControlUI.PackageMetaData'
+[2017.07.19-23.51.29:375][125]LogMetaData: Removing '/Game/PLayer/PlayerUI/ControlUI.ControlUI:EventGraph.K2Node_Event_0' ref from Metadata '/Game/PLayer/ControlUI.PackageMetaData'
+[2017.07.19-23.51.29:375][125]LogMetaData: Removing '/Game/PLayer/PlayerUI/ControlUI.ControlUI:EventGraph.K2Node_Event_1' ref from Metadata '/Game/PLayer/ControlUI.PackageMetaData'
+[2017.07.19-23.51.29:379][125]LogMetaData: Removing '/Game/PLayer/PlayerUI/ControlUI2.ControlUI2_C' ref from Metadata '/Game/PLayer/ControlUI2.PackageMetaData'
+[2017.07.19-23.51.29:379][125]LogMetaData: Removing '/Game/PLayer/PlayerUI/ControlUI2.ControlUI2_C:Image_439' ref from Metadata '/Game/PLayer/ControlUI2.PackageMetaData'
+[2017.07.19-23.51.29:379][125]LogMetaData: Removing '/Game/PLayer/PlayerUI/ControlUI2.ControlUI2_C:Button_0' ref from Metadata '/Game/PLayer/ControlUI2.PackageMetaData'
+[2017.07.19-23.51.29:379][125]LogMetaData: Removing '/Game/PLayer/PlayerUI/ControlUI2.ControlUI2_C:ExecuteUbergraph_ControlUI2' ref from Metadata '/Game/PLayer/ControlUI2.PackageMetaData'
+[2017.07.19-23.51.29:379][125]LogMetaData: Removing '/Game/PLayer/PlayerUI/ControlUI2.ControlUI2_C:Construct' ref from Metadata '/Game/PLayer/ControlUI2.PackageMetaData'
+[2017.07.19-23.51.29:379][125]LogMetaData: Removing '/Game/PLayer/PlayerUI/ControlUI2.SKEL_ControlUI2_C' ref from Metadata '/Game/PLayer/ControlUI2.PackageMetaData'
+[2017.07.19-23.51.29:379][125]LogMetaData: Removing '/Game/PLayer/PlayerUI/ControlUI2.SKEL_ControlUI2_C:Image_439' ref from Metadata '/Game/PLayer/ControlUI2.PackageMetaData'
+[2017.07.19-23.51.29:379][125]LogMetaData: Removing '/Game/PLayer/PlayerUI/ControlUI2.SKEL_ControlUI2_C:Button_0' ref from Metadata '/Game/PLayer/ControlUI2.PackageMetaData'
+[2017.07.19-23.51.29:379][125]LogMetaData: Removing '/Game/PLayer/PlayerUI/ControlUI2.SKEL_ControlUI2_C:ExecuteUbergraph_ControlUI2' ref from Metadata '/Game/PLayer/ControlUI2.PackageMetaData'
+[2017.07.19-23.51.29:379][125]LogMetaData: Removing '/Game/PLayer/PlayerUI/ControlUI2.SKEL_ControlUI2_C:Construct' ref from Metadata '/Game/PLayer/ControlUI2.PackageMetaData'
+[2017.07.19-23.51.29:382][125]LogMetaData: Removing '/Game/PLayer/PlayerUI/Player1ControlWidget.Player1ControlWidget_C' ref from Metadata '/Game/PLayer/Player1ControlWidget.PackageMetaData'
+[2017.07.19-23.51.29:382][125]LogMetaData: Removing '/Game/PLayer/PlayerUI/Player1ControlWidget.Player1ControlWidget_C:DefaultSceneRoot' ref from Metadata '/Game/PLayer/Player1ControlWidget.PackageMetaData'
+[2017.07.19-23.51.29:382][125]LogMetaData: Removing '/Game/PLayer/PlayerUI/Player1ControlWidget.Player1ControlWidget_C:UserConstructionScript' ref from Metadata '/Game/PLayer/Player1ControlWidget.PackageMetaData'
+[2017.07.19-23.51.29:382][125]LogMetaData: Removing '/Game/PLayer/PlayerUI/Player1ControlWidget.SKEL_Player1ControlWidget_C' ref from Metadata '/Game/PLayer/Player1ControlWidget.PackageMetaData'
+[2017.07.19-23.51.29:382][125]LogMetaData: Removing '/Game/PLayer/PlayerUI/Player1ControlWidget.SKEL_Player1ControlWidget_C:DefaultSceneRoot' ref from Metadata '/Game/PLayer/Player1ControlWidget.PackageMetaData'
+[2017.07.19-23.51.29:382][125]LogMetaData: Removing '/Game/PLayer/PlayerUI/Player1ControlWidget.SKEL_Player1ControlWidget_C:UserConstructionScript' ref from Metadata '/Game/PLayer/Player1ControlWidget.PackageMetaData'
+[2017.07.19-23.51.29:382][125]LogMetaData: Removing '/Game/PLayer/PlayerUI/Player1ControlWidget.Player1ControlWidget:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/PLayer/Player1ControlWidget.PackageMetaData'
+[2017.07.19-23.51.29:382][125]LogMetaData: Removing '/Game/PLayer/PlayerUI/Player1ControlWidget.Player1ControlWidget:EventGraph.K2Node_Event_0' ref from Metadata '/Game/PLayer/Player1ControlWidget.PackageMetaData'
+[2017.07.19-23.51.29:382][125]LogMetaData: Removing '/Game/PLayer/PlayerUI/Player1ControlWidget.Player1ControlWidget:EventGraph.K2Node_Event_1' ref from Metadata '/Game/PLayer/Player1ControlWidget.PackageMetaData'
+[2017.07.19-23.51.29:382][125]LogMetaData: Removing '/Game/PLayer/PlayerUI/Player1ControlWidget.Player1ControlWidget:EventGraph.K2Node_Event_2' ref from Metadata '/Game/PLayer/Player1ControlWidget.PackageMetaData'
+[2017.07.19-23.51.29:401][125]LogSavePackage: Save=6.19ms
+[2017.07.19-23.51.29:401][125]LogSavePackage: Moving '../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Saved/Player2ControlWidget158B91794BA0FB5B7EE1DB81196D4495.tmp' to '../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Content/PLayer/PlayerUI/Player2ControlWidget.uasset'
+[2017.07.19-23.51.29:402][125]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Content/PLayer/PlayerUI/Player2ControlWidget.uasset
+[2017.07.19-23.51.29:404][125]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PLayer/PlayerUI/ControlUI" FILE="../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Content/PLayer/PlayerUI/ControlUI.uasset" SILENT=true
+[2017.07.19-23.51.29:411][125]LogSavePackage: Save=5.90ms
+[2017.07.19-23.51.29:411][125]LogSavePackage: Moving '../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Saved/ControlUIC50E8AF54B749615C11D03B9EDF4EFD7.tmp' to '../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Content/PLayer/PlayerUI/ControlUI.uasset'
+[2017.07.19-23.51.29:412][125]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Content/PLayer/PlayerUI/ControlUI.uasset
+[2017.07.19-23.51.29:414][125]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PLayer/PlayerUI/ControlUI2" FILE="../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Content/PLayer/PlayerUI/ControlUI2.uasset" SILENT=true
+[2017.07.19-23.51.29:421][125]LogSavePackage: Save=5.78ms
+[2017.07.19-23.51.29:421][125]LogSavePackage: Moving '../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Saved/ControlUI249D432724DE1F1EA259641ABE63AED3D.tmp' to '../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Content/PLayer/PlayerUI/ControlUI2.uasset'
+[2017.07.19-23.51.29:422][125]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Content/PLayer/PlayerUI/ControlUI2.uasset
+[2017.07.19-23.51.29:431][125]LogSavePackage: Save=6.36ms
+[2017.07.19-23.51.29:431][125]LogSavePackage: Moving '../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Saved/Player1ControlWidget1A52FCF944AC5A79045436AFAB3E3876.tmp' to '../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Content/PLayer/PlayerUI/Player1ControlWidget.uasset'
+[2017.07.19-23.51.29:432][125]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Content/PLayer/PlayerUI/Player1ControlWidget.uasset
+[2017.07.19-23.51.29:741][125]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player2ControlWidget" FILE="../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Content/Player2ControlWidget.uasset" SILENT=true
+[2017.07.19-23.51.29:744][125]LogSavePackage: Save=2.11ms
+[2017.07.19-23.51.29:744][125]LogSavePackage: Moving '../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Saved/Player2ControlWidget70F1305D47F72905532CE3B52A9C34D8.tmp' to '../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Content/Player2ControlWidget.uasset'
+[2017.07.19-23.51.29:745][125]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Content/Player2ControlWidget.uasset
+[2017.07.19-23.51.29:747][125]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ControlUI" FILE="../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Content/ControlUI.uasset" SILENT=true
+[2017.07.19-23.51.29:750][125]LogSavePackage: Save=1.79ms
+[2017.07.19-23.51.29:750][125]LogSavePackage: Moving '../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Saved/ControlUIDD137AB14527F70392A6268D742345B7.tmp' to '../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Content/ControlUI.uasset'
+[2017.07.19-23.51.29:751][125]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Content/ControlUI.uasset
+[2017.07.19-23.51.29:754][125]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ControlUI2" FILE="../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Content/ControlUI2.uasset" SILENT=true
+[2017.07.19-23.51.29:757][125]LogSavePackage: Save=1.78ms
+[2017.07.19-23.51.29:757][125]LogSavePackage: Moving '../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Saved/ControlUI22779F08C437C59C36AD1089BF5885FB4.tmp' to '../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Content/ControlUI2.uasset'
+[2017.07.19-23.51.29:757][125]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Content/ControlUI2.uasset
+[2017.07.19-23.51.29:760][125]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player1ControlWidget" FILE="../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Content/Player1ControlWidget.uasset" SILENT=true
+[2017.07.19-23.51.29:763][125]LogSavePackage: Save=2.02ms
+[2017.07.19-23.51.29:763][125]LogSavePackage: Moving '../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Saved/Player1ControlWidget371483B94D30ED49E57C599CC45DCFB3.tmp' to '../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Content/Player1ControlWidget.uasset'
+[2017.07.19-23.51.29:764][125]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Content/Player1ControlWidget.uasset
+[2017.07.19-23.51.32:632][273]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.07.19-23.51.32:648][273]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.19-23.51.32:648][273]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.19-23.51.32:648][273]PIE: New page: PIE session: Minimal_Default (Jul 20, 2017, 7:51:32 PM)
+[2017.07.19-23.51.32:649][273]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2017.07.19-23.51.32:651][273]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002282s)
+[2017.07.19-23.51.32:651][273]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.07.19-23.51.32:652][273]LogPlayLevel: PIE: World Init took: (0.000656s)
+[2017.07.19-23.51.32:652][273]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.003168s)
+[2017.07.19-23.51.32:670][273]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.19-23.51.32:675][273]LogInit: FAudioDevice initialized.
+[2017.07.19-23.51.32:721][273]LogLoad: Game class is 'BungeeKickerMode_C'
+[2017.07.19-23.51.32:724][273]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2017.07.20-09.51.32
+[2017.07.19-23.51.32:724][273]LogWorld: Bringing up level for play took: 0.001497
+[2017.07.19-23.51.32:731][273]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 1.023
+[2017.07.19-23.51.32:731][273]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.19-23.51.33:557][301]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.19-23.51.33:610][301]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.19-23.51.36:612][458]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.07.19-23.51.36:629][458]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.19-23.51.36:629][458]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.19-23.51.36:629][458]PIE: New page: PIE session: Minimal_Default (Jul 20, 2017, 7:51:36 PM)
+[2017.07.19-23.51.36:629][458]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2017.07.19-23.51.36:631][458]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001601s)
+[2017.07.19-23.51.36:631][458]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.07.19-23.51.36:632][458]LogPlayLevel: PIE: World Init took: (0.000606s)
+[2017.07.19-23.51.36:632][458]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.002405s)
+[2017.07.19-23.51.36:649][458]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.19-23.51.36:654][458]LogInit: FAudioDevice initialized.
+[2017.07.19-23.51.36:701][458]LogLoad: Game class is 'BungeeKickerMode_C'
+[2017.07.19-23.51.36:704][458]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2017.07.20-09.51.36
+[2017.07.19-23.51.36:704][458]LogWorld: Bringing up level for play took: 0.001611
+[2017.07.19-23.51.36:712][458]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 1.004
+[2017.07.19-23.51.36:712][458]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.19-23.51.44:903][793]LogUObjectGlobals:Warning: Failed to find object 'Class None.None'
+[2017.07.19-23.51.46:176][858]LogUObjectGlobals:Warning: Failed to find object 'Class None.None'
+[2017.07.19-23.52.00:975][525]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.19-23.52.01:027][525]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.19-23.52.02:501][584]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.07.19-23.52.02:516][584]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.19-23.52.02:516][584]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.19-23.52.02:517][584]PIE: New page: PIE session: Minimal_Default (Jul 20, 2017, 7:52:02 PM)
+[2017.07.19-23.52.02:517][584]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2017.07.19-23.52.02:519][584]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001962s)
+[2017.07.19-23.52.02:519][584]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.07.19-23.52.02:519][584]LogPlayLevel: PIE: World Init took: (0.000745s)
+[2017.07.19-23.52.02:520][584]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.002995s)
+[2017.07.19-23.52.02:537][584]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.19-23.52.02:542][584]LogInit: FAudioDevice initialized.
+[2017.07.19-23.52.02:590][584]LogLoad: Game class is 'BungeeKickerMode_C'
+[2017.07.19-23.52.02:592][584]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2017.07.20-09.52.02
+[2017.07.19-23.52.02:593][584]LogWorld: Bringing up level for play took: 0.001654
+[2017.07.19-23.52.02:600][584]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.893
+[2017.07.19-23.52.02:600][584]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.19-23.52.05:338][720]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.19-23.52.05:392][720]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.19-23.52.08:054][866]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor)
+[2017.07.19-23.52.19:973][478]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.07.19-23.52.19:989][478]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.19-23.52.19:989][478]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.19-23.52.19:989][478]PIE: New page: PIE session: Minimal_Default (Jul 20, 2017, 7:52:19 PM)
+[2017.07.19-23.52.19:989][478]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2017.07.19-23.52.19:991][478]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001793s)
+[2017.07.19-23.52.19:991][478]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.07.19-23.52.19:992][478]LogPlayLevel: PIE: World Init took: (0.000601s)
+[2017.07.19-23.52.19:992][478]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.002595s)
+[2017.07.19-23.52.20:032][478]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.19-23.52.20:036][478]LogInit: FAudioDevice initialized.
+[2017.07.19-23.52.20:082][478]LogLoad: Game class is 'BungeeKickerMode_C'
+[2017.07.19-23.52.20:084][478]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2017.07.20-09.52.20
+[2017.07.19-23.52.20:084][478]LogWorld: Bringing up level for play took: 0.001481
+[2017.07.19-23.52.20:091][478]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.386
+[2017.07.19-23.52.20:092][478]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.19-23.52.22:901][618]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.19-23.52.23:026][618]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.19-23.53.00:776][368]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.07.19-23.53.00:792][368]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.19-23.53.00:793][368]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.19-23.53.00:793][368]PIE: New page: PIE session: Minimal_Default (Jul 20, 2017, 7:53:00 PM)
+[2017.07.19-23.53.00:793][368]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2017.07.19-23.53.00:794][368]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001568s)
+[2017.07.19-23.53.00:795][368]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.07.19-23.53.00:795][368]LogPlayLevel: PIE: World Init took: (0.000913s)
+[2017.07.19-23.53.00:796][368]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.002773s)
+[2017.07.19-23.53.00:841][368]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.19-23.53.00:846][368]LogInit: FAudioDevice initialized.
+[2017.07.19-23.53.00:890][368]LogLoad: Game class is 'BungeeKickerMode_C'
+[2017.07.19-23.53.00:893][368]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2017.07.20-09.53.00
+[2017.07.19-23.53.00:893][368]LogWorld: Bringing up level for play took: 0.001639
+[2017.07.19-23.53.00:900][368]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.804
+[2017.07.19-23.53.00:900][368]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.19-23.53.09:718][818]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.19-23.53.09:852][818]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.19-23.53.23:415][276]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_bungee_C_0' or package '/Engine/Transient'.
+[2017.07.19-23.53.23:415][276]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'SimpleConstructionScript_0' or package '/Engine/Transient'.
+[2017.07.19-23.53.23:415][276]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DefaultSceneRoot_GEN_VARIABLE' or package '/Engine/Transient'.
+[2017.07.19-23.53.23:415][276]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_bungee_C_1' or package '/Engine/Transient'.
+[2017.07.19-23.53.23:415][276]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ReceiveBeginPlay' or package '/Game/bungee'.
+[2017.07.19-23.53.23:415][276]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ExecuteUbergraph_bungee' or package '/Engine/Transient'.
+[2017.07.19-23.53.23:415][276]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ReceiveBeginPlay' or package '/Engine/Transient'.
+[2017.07.19-23.53.23:415][276]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'UserConstructionScript' or package '/Engine/Transient'.
+[2017.07.19-23.53.23:415][276]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'UberGraphFrame' or package '/Engine/Transient'.
+[2017.07.19-23.53.23:415][276]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_bungee_C_106' or package '/Engine/Transient'.
+[2017.07.19-23.53.23:415][276]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_bungee_C_107' or package '/Engine/Transient'.
+[2017.07.19-23.53.23:415][276]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.BungeeKickerMode_C_0.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.07.19-23.53.23:416][276]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'BungeeKickerMode_C_0' or package '/Engine/Transient'.
+[2017.07.19-23.53.59:786][  1]LogSavePackage: Save=88.57ms
+[2017.07.19-23.53.59:786][  1]LogSavePackage: Moving '../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Saved/Minimal_Default_Auto2572989404921F5F093B758A4F7E9FAF0.tmp' to '../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto2.umap'
+[2017.07.19-23.53.59:786][  1]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto2.umap
+[2017.07.19-23.53.59:787][  1]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.106
+[2017.07.19-23.53.59:787][  1]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.106
+[2017.07.19-23.53.59:790][  1]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BungeeKickerMode] ([1] browsable assets)...
+[2017.07.19-23.53.59:790][  1]OBJ SavePackage: Finished generating thumbnails for package [/Game/BungeeKickerMode]
+[2017.07.19-23.53.59:790][  1]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BungeeKickerMode" FILE="../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Saved/Autosaves/Game/BungeeKickerMode_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.07.19-23.53.59:805][  1]LogSavePackage: Save=13.22ms
+[2017.07.19-23.53.59:805][  1]LogSavePackage: Moving '../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Saved/BungeeKickerMode_Auto2EE522D2B47FBB61744D8C3A5F030A3B9.tmp' to '../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Saved/Autosaves/Game/BungeeKickerMode_Auto2.uasset'
+[2017.07.19-23.53.59:806][  1]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Saved/Autosaves/Game/BungeeKickerMode_Auto2.uasset
+[2017.07.19-23.53.59:806][  1]LogFileHelpers: Auto-saving content packages took 0.016
+[2017.07.19-23.54.41:647][729]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.07.19-23.54.57:840][401]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor)
+[2017.07.19-23.55.11:866][813]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.07.19-23.55.11:877][813]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.19-23.55.11:877][813]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.19-23.55.11:877][813]PIE: New page: PIE session: Minimal_Default (Jul 20, 2017, 7:55:11 PM)
+[2017.07.19-23.55.11:878][813]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2017.07.19-23.55.11:879][813]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001868s)
+[2017.07.19-23.55.11:880][813]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.07.19-23.55.11:880][813]LogPlayLevel: PIE: World Init took: (0.000770s)
+[2017.07.19-23.55.11:880][813]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.002858s)
+[2017.07.19-23.55.11:920][813]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.19-23.55.11:924][813]LogInit: FAudioDevice initialized.
+[2017.07.19-23.55.11:968][813]LogLoad: Game class is 'BungeeKickerMode_C'
+[2017.07.19-23.55.11:971][813]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2017.07.20-09.55.11
+[2017.07.19-23.55.11:971][813]LogWorld: Bringing up level for play took: 0.001728
+[2017.07.19-23.55.11:976][813]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.279
+[2017.07.19-23.55.11:976][813]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.19-23.55.14:947][156]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.19-23.55.15:074][156]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.19-23.56.20:499][422]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor)
+[2017.07.19-23.56.49:283][261]EditorErrors: New page: Actor attachment
+[2017.07.19-23.56.59:449][163]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.07.19-23.57.04:878][766]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.07.19-23.57.04:889][766]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.19-23.57.04:889][766]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.19-23.57.04:889][766]PIE: New page: PIE session: Minimal_Default (Jul 20, 2017, 7:57:04 PM)
+[2017.07.19-23.57.04:889][766]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2017.07.19-23.57.04:891][766]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002356s)
+[2017.07.19-23.57.04:892][766]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.07.19-23.57.04:892][766]LogPlayLevel: PIE: World Init took: (0.000730s)
+[2017.07.19-23.57.04:892][766]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.003317s)
+[2017.07.19-23.57.04:930][766]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.19-23.57.04:934][766]LogInit: FAudioDevice initialized.
+[2017.07.19-23.57.04:977][766]LogLoad: Game class is 'BungeeKickerMode_C'
+[2017.07.19-23.57.04:980][766]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2017.07.20-09.57.04
+[2017.07.19-23.57.04:980][766]LogWorld: Bringing up level for play took: 0.001496
+[2017.07.19-23.57.04:984][766]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.707
+[2017.07.19-23.57.04:984][766]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.19-23.57.06:216][892]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.19-23.57.06:267][892]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.19-23.57.07:480][ 24]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor)
+[2017.07.19-23.57.11:871][482]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.07.19-23.57.11:881][482]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.19-23.57.11:881][482]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.19-23.57.11:882][482]PIE: New page: PIE session: Minimal_Default (Jul 20, 2017, 7:57:11 PM)
+[2017.07.19-23.57.11:882][482]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2017.07.19-23.57.11:883][482]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001744s)
+[2017.07.19-23.57.11:884][482]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.07.19-23.57.11:884][482]LogPlayLevel: PIE: World Init took: (0.000606s)
+[2017.07.19-23.57.11:884][482]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.002560s)
+[2017.07.19-23.57.11:924][482]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.19-23.57.11:929][482]LogInit: FAudioDevice initialized.
+[2017.07.19-23.57.11:972][482]LogLoad: Game class is 'BungeeKickerMode_C'
+[2017.07.19-23.57.11:975][482]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2017.07.20-09.57.11
+[2017.07.19-23.57.11:975][482]LogWorld: Bringing up level for play took: 0.001767
+[2017.07.19-23.57.11:980][482]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.289
+[2017.07.19-23.57.11:980][482]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.19-23.57.15:376][724]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.19-23.57.15:505][724]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.19-23.57.17:354][935]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor)
+[2017.07.19-23.57.21:306][406]LogEditorViewport: Clicking on Actor (LMB): Camera_C (Camera)
+[2017.07.19-23.58.07:855][112]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.07.19-23.58.07:865][112]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.19-23.58.07:865][112]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.19-23.58.07:866][112]PIE: New page: PIE session: Minimal_Default (Jul 20, 2017, 7:58:07 PM)
+[2017.07.19-23.58.07:866][112]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2017.07.19-23.58.07:867][112]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001766s)
+[2017.07.19-23.58.07:868][112]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.07.19-23.58.07:868][112]LogPlayLevel: PIE: World Init took: (0.000656s)
+[2017.07.19-23.58.07:868][112]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.002651s)
+[2017.07.19-23.58.07:911][112]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.19-23.58.07:915][112]LogInit: FAudioDevice initialized.
+[2017.07.19-23.58.07:960][112]LogLoad: Game class is 'BungeeKickerMode_C'
+[2017.07.19-23.58.07:962][112]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2017.07.20-09.58.07
+[2017.07.19-23.58.07:962][112]LogWorld: Bringing up level for play took: 0.001639
+[2017.07.19-23.58.07:967][112]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.279
+[2017.07.19-23.58.07:967][112]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.19-23.58.11:412][515]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.19-23.58.11:462][515]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.19-23.58.19:100][258]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.07.19-23.58.19:110][258]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.19-23.58.19:110][258]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.19-23.58.19:111][258]PIE: New page: PIE session: Minimal_Default (Jul 20, 2017, 7:58:19 PM)
+[2017.07.19-23.58.19:111][258]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2017.07.19-23.58.19:112][258]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001696s)
+[2017.07.19-23.58.19:113][258]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.07.19-23.58.19:113][258]LogPlayLevel: PIE: World Init took: (0.000969s)
+[2017.07.19-23.58.19:114][258]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.002968s)
+[2017.07.19-23.58.19:150][258]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.19-23.58.19:156][258]LogInit: FAudioDevice initialized.
+[2017.07.19-23.58.19:198][258]LogLoad: Game class is 'BungeeKickerMode_C'
+[2017.07.19-23.58.19:201][258]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2017.07.20-09.58.19
+[2017.07.19-23.58.19:201][258]LogWorld: Bringing up level for play took: 0.001486
+[2017.07.19-23.58.19:205][258]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.482
+[2017.07.19-23.58.19:205][258]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.19-23.58.21:743][551]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.19-23.58.21:795][551]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.19-23.58.23:516][750]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor)
+[2017.07.19-23.58.27:954][219]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.07.19-23.58.27:965][219]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.19-23.58.27:965][219]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.19-23.58.27:965][219]PIE: New page: PIE session: Minimal_Default (Jul 20, 2017, 7:58:27 PM)
+[2017.07.19-23.58.27:965][219]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2017.07.19-23.58.27:967][219]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001579s)
+[2017.07.19-23.58.27:967][219]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.07.19-23.58.27:967][219]LogPlayLevel: PIE: World Init took: (0.000565s)
+[2017.07.19-23.58.27:968][219]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.002366s)
+[2017.07.19-23.58.28:007][219]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.19-23.58.28:011][219]LogInit: FAudioDevice initialized.
+[2017.07.19-23.58.28:055][219]LogLoad: Game class is 'BungeeKickerMode_C'
+[2017.07.19-23.58.28:058][219]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2017.07.20-09.58.28
+[2017.07.19-23.58.28:058][219]LogWorld: Bringing up level for play took: 0.001484
+[2017.07.19-23.58.28:062][219]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.375
+[2017.07.19-23.58.28:062][219]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.19-23.58.52:044][100]LogEditorActor: Deleted Actor: CameraActor
+[2017.07.19-23.58.53:306][100]LogEditorActor: Deleted Actor: Camera_C
+[2017.07.19-23.58.53:318][100]LogEditorActor: Deleted 2 Actors (3.439 secs)
+[2017.07.19-23.58.55:769][319]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.19-23.58.55:806][319]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.19-23.59.03:906][182]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.19-23.59.03:906][182]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.19-23.59.03:906][182]PIE: New page: SIE session: Minimal_Default (Jul 20, 2017, 7:59:03 PM)
+[2017.07.19-23.59.03:906][182]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2017.07.19-23.59.03:908][182]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001899s)
+[2017.07.19-23.59.03:909][182]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.07.19-23.59.03:909][182]LogPlayLevel: PIE: World Init took: (0.000589s)
+[2017.07.19-23.59.03:909][182]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.002706s)
+[2017.07.19-23.59.03:922][182]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.19-23.59.03:926][182]LogInit: FAudioDevice initialized.
+[2017.07.19-23.59.03:958][182]LogLoad: Game class is 'BungeeKickerMode_C'
+[2017.07.19-23.59.03:960][182]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2017.07.20-09.59.03
+[2017.07.19-23.59.03:960][182]LogWorld: Bringing up level for play took: 0.001256
+[2017.07.19-23.59.03:960][182]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.07.19-23.59.03:962][182]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.277
+[2017.07.19-23.59.03:969][182]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.19-23.59.07:282][487]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.19-23.59.07:323][487]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.19-23.59.12:110][973]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.07.19-23.59.15:252][321]LogEditorViewport: Clicking on Actor (LMB): Camera_C (Camera)
+[2017.07.19-23.59.19:634][798]LogUObjectGlobals:Warning: Failed to find object 'Class None.None'
+[2017.07.19-23.59.20:744][918]LogTemp: Repeting last play command: Simulate
+[2017.07.19-23.59.20:753][918]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.19-23.59.20:753][918]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.19-23.59.20:753][918]PIE: New page: SIE session: Minimal_Default (Jul 20, 2017, 7:59:20 PM)
+[2017.07.19-23.59.20:753][918]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2017.07.19-23.59.20:755][918]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001621s)
+[2017.07.19-23.59.20:755][918]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.07.19-23.59.20:755][918]LogPlayLevel: PIE: World Init took: (0.000588s)
+[2017.07.19-23.59.20:756][918]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.002411s)
+[2017.07.19-23.59.20:796][918]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.19-23.59.20:800][918]LogInit: FAudioDevice initialized.
+[2017.07.19-23.59.20:827][918]LogLoad: Game class is 'BungeeKickerMode_C'
+[2017.07.19-23.59.20:830][918]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2017.07.20-09.59.20
+[2017.07.19-23.59.20:830][918]LogWorld: Bringing up level for play took: 0.001494
+[2017.07.19-23.59.20:830][918]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.07.19-23.59.20:831][918]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.853
+[2017.07.19-23.59.20:872][918]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.19-23.59.22:364][ 67]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.19-23.59.22:408][ 67]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.19-23.59.25:955][326]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.19-23.59.25:955][326]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.19-23.59.25:956][326]PIE: New page: PIE session: Minimal_Default (Jul 20, 2017, 7:59:25 PM)
+[2017.07.19-23.59.25:956][326]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2017.07.19-23.59.25:957][326]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001709s)
+[2017.07.19-23.59.25:958][326]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.07.19-23.59.25:958][326]LogPlayLevel: PIE: World Init took: (0.000645s)
+[2017.07.19-23.59.25:958][326]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.002585s)
+[2017.07.19-23.59.25:997][326]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.19-23.59.26:002][326]LogInit: FAudioDevice initialized.
+[2017.07.19-23.59.26:029][326]LogLoad: Game class is 'BungeeKickerMode_C'
+[2017.07.19-23.59.26:032][326]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2017.07.20-09.59.26
+[2017.07.19-23.59.26:032][326]LogWorld: Bringing up level for play took: 0.001686
+[2017.07.19-23.59.26:033][326]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.349
+[2017.07.19-23.59.26:033][326]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.19-23.59.27:484][457]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.19-23.59.27:531][457]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.19-23.59.29:572][647]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.19-23.59.29:572][647]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.19-23.59.29:572][647]PIE: New page: PIE session: Minimal_Default (Jul 20, 2017, 7:59:29 PM)
+[2017.07.19-23.59.29:572][647]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2017.07.19-23.59.29:574][647]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001650s)
+[2017.07.19-23.59.29:574][647]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.07.19-23.59.29:574][647]LogPlayLevel: PIE: World Init took: (0.000702s)
+[2017.07.19-23.59.29:575][647]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.002563s)
+[2017.07.19-23.59.29:615][647]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.19-23.59.29:619][647]LogInit: FAudioDevice initialized.
+[2017.07.19-23.59.29:663][647]LogLoad: Game class is 'BungeeKickerMode_C'
+[2017.07.19-23.59.29:666][647]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2017.07.20-09.59.29
+[2017.07.19-23.59.29:666][647]LogWorld: Bringing up level for play took: 0.001615
+[2017.07.19-23.59.29:671][647]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.013
+[2017.07.19-23.59.29:671][647]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.19-23.59.31:965][892]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.19-23.59.32:014][892]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.20-00.00.36:675][287]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.07.20-00.00.36:686][287]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.20-00.00.36:686][287]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.20-00.00.36:686][287]PIE: New page: PIE session: Minimal_Default (Jul 20, 2017, 8:00:36 PM)
+[2017.07.20-00.00.36:686][287]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2017.07.20-00.00.36:688][287]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001857s)
+[2017.07.20-00.00.36:689][287]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.07.20-00.00.36:689][287]LogPlayLevel: PIE: World Init took: (0.000695s)
+[2017.07.20-00.00.36:689][287]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.002798s)
+[2017.07.20-00.00.36:703][287]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.20-00.00.36:708][287]LogInit: FAudioDevice initialized.
+[2017.07.20-00.00.36:749][287]LogLoad: Game class is 'BungeeKickerMode_C'
+[2017.07.20-00.00.36:751][287]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2017.07.20-10.00.36
+[2017.07.20-00.00.36:752][287]LogWorld: Bringing up level for play took: 0.001575
+[2017.07.20-00.00.36:756][287]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.924
+[2017.07.20-00.00.36:756][287]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.20-00.00.39:248][568]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.20-00.00.39:286][568]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.20-00.00.40:363][682]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.07.20-00.00.40:373][682]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.20-00.00.40:373][682]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.20-00.00.40:373][682]PIE: New page: PIE session: Minimal_Default (Jul 20, 2017, 8:00:40 PM)
+[2017.07.20-00.00.40:373][682]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2017.07.20-00.00.40:375][682]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001616s)
+[2017.07.20-00.00.40:375][682]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.07.20-00.00.40:375][682]LogPlayLevel: PIE: World Init took: (0.000565s)
+[2017.07.20-00.00.40:376][682]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.002380s)
+[2017.07.20-00.00.40:389][682]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.20-00.00.40:394][682]LogInit: FAudioDevice initialized.
+[2017.07.20-00.00.40:433][682]LogLoad: Game class is 'BungeeKickerMode_C'
+[2017.07.20-00.00.40:435][682]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2017.07.20-10.00.40
+[2017.07.20-00.00.40:435][682]LogWorld: Bringing up level for play took: 0.001447
+[2017.07.20-00.00.40:439][682]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.759
+[2017.07.20-00.00.40:440][682]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.20-00.00.42:589][931]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.20-00.00.42:628][931]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.20-00.00.43:536][ 19]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.07.20-00.00.43:546][ 19]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.20-00.00.43:546][ 19]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.20-00.00.43:546][ 19]PIE: New page: PIE session: Minimal_Default (Jul 20, 2017, 8:00:43 PM)
+[2017.07.20-00.00.43:546][ 19]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2017.07.20-00.00.43:548][ 19]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001593s)
+[2017.07.20-00.00.43:549][ 19]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.07.20-00.00.43:549][ 19]LogPlayLevel: PIE: World Init took: (0.000581s)
+[2017.07.20-00.00.43:549][ 19]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.002381s)
+[2017.07.20-00.00.43:563][ 19]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.20-00.00.43:567][ 19]LogInit: FAudioDevice initialized.
+[2017.07.20-00.00.43:608][ 19]LogLoad: Game class is 'BungeeKickerMode_C'
+[2017.07.20-00.00.43:611][ 19]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2017.07.20-10.00.43
+[2017.07.20-00.00.43:611][ 19]LogWorld: Bringing up level for play took: 0.001431
+[2017.07.20-00.00.43:615][ 19]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.065
+[2017.07.20-00.00.43:615][ 19]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.20-00.00.44:837][125]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.20-00.00.44:873][125]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.20-00.00.45:402][167]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.07.20-00.00.45:413][167]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.20-00.00.45:413][167]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.20-00.00.45:413][167]PIE: New page: PIE session: Minimal_Default (Jul 20, 2017, 8:00:45 PM)
+[2017.07.20-00.00.45:413][167]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2017.07.20-00.00.45:414][167]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001581s)
+[2017.07.20-00.00.45:415][167]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.07.20-00.00.45:415][167]LogPlayLevel: PIE: World Init took: (0.000567s)
+[2017.07.20-00.00.45:415][167]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.002366s)
+[2017.07.20-00.00.45:431][167]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.20-00.00.45:435][167]LogInit: FAudioDevice initialized.
+[2017.07.20-00.00.45:481][167]LogLoad: Game class is 'BungeeKickerMode_C'
+[2017.07.20-00.00.45:484][167]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2017.07.20-10.00.45
+[2017.07.20-00.00.45:484][167]LogWorld: Bringing up level for play took: 0.001604
+[2017.07.20-00.00.45:488][167]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.192
+[2017.07.20-00.00.45:488][167]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.20-00.06.33:550][671]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.20-00.06.33:590][671]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.20-00.06.34:112][722]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.07.20-00.06.34:123][722]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.20-00.06.34:123][722]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.20-00.06.34:123][722]PIE: New page: PIE session: Minimal_Default (Jul 20, 2017, 8:06:34 PM)
+[2017.07.20-00.06.34:123][722]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2017.07.20-00.06.34:125][722]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001680s)
+[2017.07.20-00.06.34:125][722]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.07.20-00.06.34:125][722]LogPlayLevel: PIE: World Init took: (0.000619s)
+[2017.07.20-00.06.34:125][722]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.002501s)
+[2017.07.20-00.06.34:139][722]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.20-00.06.34:145][722]LogInit: FAudioDevice initialized.
+[2017.07.20-00.06.34:186][722]LogLoad: Game class is 'BungeeKickerMode_C'
+[2017.07.20-00.06.34:189][722]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2017.07.20-10.06.34
+[2017.07.20-00.06.34:189][722]LogWorld: Bringing up level for play took: 0.001687
+[2017.07.20-00.06.34:193][722]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.524
+[2017.07.20-00.06.34:194][722]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.20-00.06.36:277][944]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.20-00.06.36:303][944]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.20-00.08.46:825][776]BlueprintLog: New page: Compile Minimal_Default
+[2017.07.20-00.08.49:806][983]LogEditorActor: Deleted Actor: Camera_C
+[2017.07.20-00.08.49:820][983]LogEditorActor: Deleted 1 Actors (0.014 secs)
+[2017.07.20-00.10.12:412][232]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.07.20-00.10.12:423][232]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.20-00.10.12:423][232]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.20-00.10.12:424][232]PIE: New page: PIE session: Minimal_Default (Jul 20, 2017, 8:10:12 PM)
+[2017.07.20-00.10.12:424][232]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2017.07.20-00.10.12:426][232]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001911s)
+[2017.07.20-00.10.12:426][232]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.07.20-00.10.12:426][232]LogPlayLevel: PIE: World Init took: (0.000726s)
+[2017.07.20-00.10.12:427][232]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.002859s)
+[2017.07.20-00.10.12:442][232]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.20-00.10.12:446][232]LogInit: FAudioDevice initialized.
+[2017.07.20-00.10.12:492][232]LogLoad: Game class is 'BungeeKickerMode_C'
+[2017.07.20-00.10.12:495][232]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2017.07.20-10.10.12
+[2017.07.20-00.10.12:495][232]LogWorld: Bringing up level for play took: 0.001641
+[2017.07.20-00.10.12:502][232]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.822
+[2017.07.20-00.10.12:502][232]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.20-00.10.13:987][347]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.20-00.10.14:016][347]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.20-00.10.16:739][516]LogEditorActor: Deleted Actor: CameraActor
+[2017.07.20-00.10.16:753][516]LogEditorActor: Deleted 1 Actors (0.014 secs)
+[2017.07.20-00.10.17:986][615]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.07.20-00.10.17:996][615]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.20-00.10.17:996][615]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.20-00.10.17:996][615]PIE: New page: PIE session: Minimal_Default (Jul 20, 2017, 8:10:17 PM)
+[2017.07.20-00.10.17:996][615]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2017.07.20-00.10.17:998][615]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001900s)
+[2017.07.20-00.10.17:999][615]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.07.20-00.10.17:999][615]LogPlayLevel: PIE: World Init took: (0.001080s)
+[2017.07.20-00.10.18:000][615]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.003308s)
+[2017.07.20-00.10.18:015][615]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.20-00.10.18:020][615]LogInit: FAudioDevice initialized.
+[2017.07.20-00.10.18:069][615]LogLoad: Game class is 'BungeeKickerMode_C'
+[2017.07.20-00.10.18:071][615]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2017.07.20-10.10.18
+[2017.07.20-00.10.18:071][615]LogWorld: Bringing up level for play took: 0.001642
+[2017.07.20-00.10.18:078][615]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.398
+[2017.07.20-00.10.18:078][615]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.20-00.10.20:210][787]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.20-00.10.20:240][787]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.20-00.10.21:558][884]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.07.20-00.10.21:569][884]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.20-00.10.21:569][884]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.20-00.10.21:569][884]PIE: New page: PIE session: Minimal_Default (Jul 20, 2017, 8:10:21 PM)
+[2017.07.20-00.10.21:569][884]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2017.07.20-00.10.21:571][884]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001629s)
+[2017.07.20-00.10.21:571][884]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.07.20-00.10.21:571][884]LogPlayLevel: PIE: World Init took: (0.000601s)
+[2017.07.20-00.10.21:572][884]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.002451s)
+[2017.07.20-00.10.21:587][884]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.20-00.10.21:592][884]LogInit: FAudioDevice initialized.
+[2017.07.20-00.10.21:635][884]LogLoad: Game class is 'BungeeKickerMode_C'
+[2017.07.20-00.10.21:638][884]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2017.07.20-10.10.21
+[2017.07.20-00.10.21:638][884]LogWorld: Bringing up level for play took: 0.001584
+[2017.07.20-00.10.21:644][884]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.035
+[2017.07.20-00.10.21:645][884]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.20-00.10.39:558][299]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.20-00.10.39:601][299]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.20-00.11.22:327][ 85]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.07.20-00.11.30:119][644]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.07.20-00.11.30:130][644]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.20-00.11.30:131][644]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.20-00.11.30:131][644]PIE: New page: PIE session: Minimal_Default (Jul 20, 2017, 8:11:30 PM)
+[2017.07.20-00.11.30:131][644]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2017.07.20-00.11.30:133][644]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001846s)
+[2017.07.20-00.11.30:133][644]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.07.20-00.11.30:133][644]LogPlayLevel: PIE: World Init took: (0.000721s)
+[2017.07.20-00.11.30:134][644]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.002835s)
+[2017.07.20-00.11.30:150][644]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.20-00.11.30:155][644]LogInit: FAudioDevice initialized.
+[2017.07.20-00.11.30:200][644]LogLoad: Game class is 'BungeeKickerMode_C'
+[2017.07.20-00.11.30:203][644]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2017.07.20-10.11.30
+[2017.07.20-00.11.30:203][644]LogWorld: Bringing up level for play took: 0.001640
+[2017.07.20-00.11.30:209][644]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.526
+[2017.07.20-00.11.30:210][644]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.20-00.11.33:831][885]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.20-00.11.33:873][885]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.20-00.11.48:628][986]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.07.20-00.11.48:639][986]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.20-00.11.48:639][986]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.20-00.11.48:639][986]PIE: New page: PIE session: Minimal_Default (Jul 20, 2017, 8:11:48 PM)
+[2017.07.20-00.11.48:639][986]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2017.07.20-00.11.48:641][986]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001686s)
+[2017.07.20-00.11.48:641][986]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.07.20-00.11.48:641][986]LogPlayLevel: PIE: World Init took: (0.000639s)
+[2017.07.20-00.11.48:642][986]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.002542s)
+[2017.07.20-00.11.48:657][986]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.20-00.11.48:662][986]LogInit: FAudioDevice initialized.
+[2017.07.20-00.11.48:708][986]LogLoad: Game class is 'BungeeKickerMode_C'
+[2017.07.20-00.11.48:710][986]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2017.07.20-10.11.48
+[2017.07.20-00.11.48:711][986]LogWorld: Bringing up level for play took: 0.001624
+[2017.07.20-00.11.48:717][986]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 1.033
+[2017.07.20-00.11.48:717][986]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.20-00.11.51:379][202]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.20-00.11.51:420][202]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.20-00.12.23:224][950]LogSavePackage: Save=98.82ms
+[2017.07.20-00.12.23:224][950]LogSavePackage: Moving '../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Saved/Minimal_Default_Auto3A6E42D144EC5DAFD5FE692BC623D51F5.tmp' to '../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto3.umap'
+[2017.07.20-00.12.23:225][950]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto3.umap
+[2017.07.20-00.12.23:226][950]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.118
+[2017.07.20-00.12.23:226][950]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.118
+[2017.07.20-00.12.23:228][950]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Camera] ([1] browsable assets)...
+[2017.07.20-00.12.23:228][950]OBJ SavePackage: Finished generating thumbnails for package [/Game/Camera]
+[2017.07.20-00.12.23:228][950]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Camera" FILE="../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Saved/Autosaves/Game/Camera_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2017.07.20-00.12.23:236][950]LogSavePackage: Save=6.81ms
+[2017.07.20-00.12.23:236][950]LogSavePackage: Moving '../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Saved/Camera_Auto3569B643A483ED73A21C29C8F1FED7828.tmp' to '../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Saved/Autosaves/Game/Camera_Auto3.uasset'
+[2017.07.20-00.12.23:237][950]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Saved/Autosaves/Game/Camera_Auto3.uasset
+[2017.07.20-00.12.23:237][950]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BungeeKickerMode] ([1] browsable assets)...
+[2017.07.20-00.12.23:237][950]OBJ SavePackage: Finished generating thumbnails for package [/Game/BungeeKickerMode]
+[2017.07.20-00.12.23:237][950]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BungeeKickerMode" FILE="../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Saved/Autosaves/Game/BungeeKickerMode_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2017.07.20-00.12.23:252][950]LogSavePackage: Save=13.22ms
+[2017.07.20-00.12.23:252][950]LogSavePackage: Moving '../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Saved/BungeeKickerMode_Auto38D8C29F746CE0088EC315B84524628B8.tmp' to '../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Saved/Autosaves/Game/BungeeKickerMode_Auto3.uasset'
+[2017.07.20-00.12.23:253][950]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/s171294/Documents/Unreal Projects/Temp/Saved/Autosaves/Game/BungeeKickerMode_Auto3.uasset
+[2017.07.20-00.12.23:253][950]LogFileHelpers: Auto-saving content packages took 0.025
+[2017.07.20-00.13.42:454][601]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'K2Node_CallFunction_17' or package '/Game/StarterContent/Maps/Minimal_Default'.
+[2017.07.20-00.13.42:454][601]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Camera1' or package '/Game/StarterContent/Maps/Minimal_Default'.
+[2017.07.20-00.13.42:454][601]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_Camera_C_129' or package '/Engine/Transient'.
+[2017.07.20-00.13.42:454][601]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Camera1' or package '/Engine/Transient'.
+[2017.07.20-00.13.42:454][601]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'CallFunc_FinishSpawningActor_ReturnValue' or package '/Engine/Transient'.
+[2017.07.20-00.13.42:454][601]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_Camera_C_128' or package '/Engine/Transient'.
+[2017.07.20-00.13.42:454][601]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'UserConstructionScript' or package '/Engine/Transient'.
+[2017.07.20-00.13.42:455][601]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DefaultSceneRoot' or package '/Engine/Transient'.
+[2017.07.20-00.13.42:455][601]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_Camera_C_3' or package '/Engine/Transient'.
+[2017.07.20-00.13.42:455][601]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DefaultSceneRoot_GEN_VARIABLE' or package '/Engine/Transient'.
+[2017.07.20-00.13.42:455][601]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'SimpleConstructionScript_0' or package '/Engine/Transient'.
+[2017.07.20-00.13.42:455][601]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_Camera_C_2' or package '/Engine/Transient'.
+[2017.07.20-00.13.43:705][723]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor)
+[2017.07.20-00.13.59:487][457]LogEditorViewport: Clicking on Actor (context menu): CameraActor (CameraActor)
+[2017.07.20-00.14.08:913][264]Cmd: SELECT NONE
+[2017.07.20-00.14.19:893][245]LogWindows: Windows GetLastError: The operation completed successfully. (0)
